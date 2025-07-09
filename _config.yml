@@ -2,13 +2,13 @@
 title: Paul Yashouh - Frontend Developer
 description: My personal portfolio showcasing frontend development expertise, fullstack knowledge, and projects.
 author: Paul Yashouh
-email: your.email@example.com # Optional, but good for contact
+email: paulyashou81@gmail.com # Optional, but good for contact
 
 # Base URL (for GitHub Pages)
 # IMPORTANT: If your repository is `username.github.io`, leave baseurl empty.
 # If your repository is `username.github.io/my-portfolio`, then set baseurl: "/my-portfolio"
 baseurl: "" # The subpath of your site, e.g. /blog
-url: "https://your-github-username.github.io" # The base hostname & protocol for your site
+url: "https://payamaya.github.io/" # The base hostname & protocol for your site
 
 # Theme
 # This is a very common default theme that looks clean.
