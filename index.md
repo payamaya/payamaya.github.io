@@ -1,6 +1,7 @@
+<img src="assets/images/examens-bild.png" alt="Paul Yashouh's Photo" width="200" style="border-radius: 50%;">
 ---
 layout: default
-title: Paul Yashouh - Frontend Developer Portfolio
+title: Paul Yashouh - Fullstack Developer Portfolio
 ---
 
 # 👋 Hi, I'm Paul Yashouh!
