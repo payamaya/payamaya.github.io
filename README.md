@@ -67,4 +67,5 @@ Thank you for visiting my portfolio!
 ---
 
 **[Optional: Add a professional photo here, in `assets/images/your-photo.jpg`]**
-*Example: `<img src="assets/images/your-photo.jpg" alt="Paul Yashouh's Photo" width="200" style="border-radius: 50%;">`*
+**[Optional: Add a professional photo here, in `assets/images/examens-bild.png`]**
+*Example: `<img src="assets/images/examens-bild.png" alt="Paul Yashouh's Photo" width="200" style="border-radius: 50%;">`*
