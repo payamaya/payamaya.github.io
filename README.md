@@ -15,4 +15,4 @@ Feel free to explore my projects and learn more about my skills and experience.
 * **Backend & Fullstack:** C#, .NET (ASP.NET Core), Java, PHP, Python, REST, GraphQL, SQL Server, MySQL
 * **Tools:** Git, GitHub, Vercel
 
-For more details, check out my [LinkedIn Profile](https://www.linkedin.com/in/yourlinkedinprofile).
+For more details, check out my [LinkedIn Profile](https://www.linkedin.com/in/payamaya/).
