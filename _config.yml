@@ -40,4 +40,6 @@ include:
 # Header pages
 header_pages:
   - index.md
+  - projects.md
+  - contact.md
   # Add other pages like projects.md, about.md if you have them

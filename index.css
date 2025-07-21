@@ -84,6 +84,26 @@ nav ul li a.active {
   padding: 0.5rem;
 }
 
+/* PROJETCS */
+/* Projects grid */
+.projects {
+  display: grid;
+  gap: 2rem;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+/* Contact form */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+/* --------------------------- */
+
 /* Mobile Menu Styles */
 @media (max-width: 768px) {
   /* Hide desktop menu by default on mobile */
