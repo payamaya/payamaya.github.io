@@ -1,37 +1,31 @@
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/x-icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description"
-    content="Paul Yashouh's portfolio showcasing expertise in Frontend Development (React, Next.js, TypeScript, Tailwind CSS) and Fullstack principles (.NET, C#, Databases). Explore projects and skills.">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
 
-  <link rel="canonical" href="https://payamaya.github.io/" />
-  <link rel="stylesheet" href="https://payamaya.github.io//index.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/index.css' | relative_url }}">
 
-  <meta property="og:title" content="Paul Yashouh - Frontend & Fullstack Developer Portfolio" />
-  <meta property="og:description"
-    content="Discover Paul Yashouh's work in modern web development, including React, Next.js, and backend technologies. Specialized in creating intuitive and responsive user experiences." />
-  <meta property="og:image" content="https://payamaya.github.io/assets/images/opengraph-image.png" />
-  <meta property="og:image:alt" content="Paul Yashouh's professional portfolio showcasing web development projects and skills" />
-  <meta property="og:url" content="https://payamaya.github.io/" />
-  <meta property="og:type" content="website" />
+  <!-- SEO Meta -->
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="canonical" href="{{ site.url }}">
 
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:image" content="{{ '/assets/images/opengraph-image.png' | absolute_url }}">
+  <meta property="og:image:alt" content="Paul Yashouh's professional portfolio showcasing web development projects and skills">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@your_twitter_handle"> <meta name="twitter:creator" content="@your_twitter_handle"> <meta name="twitter:title" content="Paul Yashouh - Frontend & Fullstack Developer">
-  <meta name="twitter:description" content="Explore my portfolio: React, Next.js, TypeScript, Tailwind CSS, .NET, C#. Building intuitive and responsive web applications.">
-  <meta name="twitter:image" content="https://payamaya.github.io/assets/images/opengraph-image.png">
-
-  <title>Paul Yashouh - Frontend & Fullstack Developer Portfolio</title>
-  <nav>
-  <ul>
-    {% for item in site.data.navigation.main %}
-      <li>
-        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>
-          {{ item.name }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
+  <meta name="twitter:site" content="@your_twitter_handle">
+  <meta name="twitter:creator" content="@your_twitter_handle">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:image" content="{{ '/assets/images/opengraph-image.png' | absolute_url }}">
 </head>
