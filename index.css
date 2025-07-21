@@ -2,7 +2,7 @@
   /* Light mode defaults */
   --bg-color: #ffffff;
   --text-color: #333333;
-  --primary-color: #3498db;
+  --primary-color: #29363e;
   --header-bg: #2c3e50;
   --header-text: #ffffff;
   --card-bg: #f8f9fa;
@@ -13,7 +13,7 @@
   /* Dark mode overrides */
   --bg-color: #121212;
   --text-color: #f8f9fa;
-  --primary-color: #1e88e5;
+  --primary-color: #191f22;
   --header-bg: #1a1a1a;
   --card-bg: #1e1e1e;
   --card-shadow: rgba(0, 0, 0, 0.3);
@@ -35,6 +35,9 @@ header {
 
 nav ul li a {
   color: var(--header-text);
+}
+li {
+  list-style: none;
 }
 
 /* Theme Toggle Button */
