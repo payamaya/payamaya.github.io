@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Paul Yashouh - Fullstack Developer Portfolio
 ---
 <img src="assets/images/mypic1.jpg" alt="Paul Yashouh's Photo" style="width: 100px; height: 100px; border-radius: 50%;"/>
 
