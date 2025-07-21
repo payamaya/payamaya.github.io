@@ -32,12 +32,12 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag # Recommended for SEO
-
-# Include additional files
+  
+  # Include additional files
 include:
   - index.css
 
-  # Add to _config.yml
-  header_pages:
+# Header pages
+header_pages:
   - index.md
   # Add other pages like projects.md, about.md if you have them
