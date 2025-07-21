@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<img src="assets/images/mypic1.jpg" alt="Paul Yashouh's Photo" style="width: 100px; height: 100px; border-radius: 50%;"/>
-
 # 👋 Hi, I'm Paul Yashouh!
 
 I am a passionate and dedicated Frontend Developer with a **two-year degree in Frontend Development from KYH**, complemented by a strong understanding of fullstack principles from additional studies at Lexicon IT Proffs and Luleå University of Technology. I thrive on crafting intuitive, responsive, and high-quality user interfaces that deliver exceptional user experiences.
