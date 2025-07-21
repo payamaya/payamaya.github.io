@@ -13,7 +13,7 @@ url: "https://payamaya.github.io/" # The base hostname & protocol for your site
 # Theme
 # This is a very common default theme that looks clean.
 # You can explore others like "hyde" or search for Jekyll themes.
-theme: hyde
+theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.
