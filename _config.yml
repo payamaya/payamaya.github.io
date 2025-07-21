@@ -37,6 +37,9 @@ plugins:
 include:
   - index.css
 
+# Enable both .md and .html extensions
+permalink: pretty
+
 # Header pages
 header_pages:
   - index.md
