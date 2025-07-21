@@ -23,4 +23,15 @@
   <meta name="twitter:image" content="https://payamaya.github.io/assets/images/opengraph-image.png">
 
   <title>Paul Yashouh - Frontend & Fullstack Developer Portfolio</title>
+  <nav>
+  <ul>
+    {% for item in site.data.navigation.main %}
+      <li>
+        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>
+          {{ item.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
 </head>
