@@ -1,8 +1,8 @@
 # _data/navigation.yml
 main:
-  - name: "Home"
-    url: "/"
-  - name: "Projects"
-    url: "/projects/"
-  - name: "Contact"
-    url: "/contact/"
+  - name: 'Home'
+    url: '/'
+  - name: 'Projects'
+    url: '/projects/'
+  - name: 'Contact'
+    url: '/contact/'

@@ -16,11 +16,13 @@ Welcome to my professional portfolio website! This responsive site showcases my 
 ## 🛠️ Technologies Used
 
 ### Core Technologies
+
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Static Site Generator**: Jekyll (for GitHub Pages)
 - **Styling**: CSS (with Tailwind-like utility classes)
 
 ### Development Tools
+
 - **Version Control**: Git & GitHub
 - **Deployment**: GitHub Pages
 - **Build Tools**: Bundler (for Jekyll)

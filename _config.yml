@@ -7,8 +7,8 @@ email: paulyashou81@gmail.com # Optional, but good for contact
 # Base URL (for GitHub Pages)
 # IMPORTANT: If your repository is `username.github.io`, leave baseurl empty.
 # If your repository is `username.github.io/my-portfolio`, then set baseurl: "/my-portfolio"
-baseurl: "" # The subpath of your site, e.g. /blog
-url: "https://payamaya.github.io/" # The base hostname & protocol for your site
+baseurl: '' # The subpath of your site, e.g. /blog
+url: 'https://payamaya.github.io/' # The base hostname & protocol for your site
 
 # Theme
 # This is a very common default theme that looks clean.
@@ -32,7 +32,7 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag # Recommended for SEO
-  
+
   # Include additional files
 include:
   - index.css

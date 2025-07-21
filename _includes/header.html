@@ -2,19 +2,18 @@
   <nav>
     <!-- Add your logo/brand here if needed -->
     <div class="nav-brand">Your Logo</div>
-    
+
     <!-- Hamburger Button -->
     <button class="hamburger" id="hamburger">☰</button>
-    
+
     <!-- Navigation Menu -->
     <ul id="nav-menu">
       {% for item in site.data.navigation.main %}
-        <li>
-          <a href="{{ item.url | relative_url }}" 
-             {% if page.url == item.url %}class="active"{% endif %}>
-            {{ item.name }}
-          </a>
-        </li>
+      <li>
+        <a href="{{ item.url | relative_url }}" {% if page.url==item.url %}class="active" {% endif %}>
+          {{ item.name }}
+        </a>
+      </li>
       {% endfor %}
     </ul>
   </nav>

@@ -1,10 +1,10 @@
-:root{
-   background-color: green !important;
+:root {
+  background-color: green !important;
 }
 img {
   border-radius: 50%;
-  width:100px;
-  height:100px;
+  width: 100px;
+  height: 100px;
 }
 /* Navigation Styles */
 header {
