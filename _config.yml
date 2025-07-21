@@ -36,3 +36,8 @@ plugins:
   # Add this to your existing _config.yml
 include:
   - index.css
+
+  # Add to _config.yml
+  header_pages:
+  - index.md
+  # Add other pages like projects.md, about.md if you have them
