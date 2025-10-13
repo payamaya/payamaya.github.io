@@ -5,5 +5,5 @@
 
 - name: '.NET API'
   description: 'RESTful API for e-commerce'
-  url: 'https://vercel.com/payamayas-projects'
+  url: '/projects/dotnet-api'
   tags: ['c#', '.net']
