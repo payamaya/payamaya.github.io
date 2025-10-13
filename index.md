@@ -2,26 +2,77 @@
 layout: default
 ---
 
-# 👋 Hi, I'm Paul Yashouh!
+<h1>Paul Yashouh</h1>
 
-I am a passionate and dedicated Frontend Developer with a **two-year degree in Frontend Development from KYH**, complemented by a strong understanding of fullstack principles from additional studies at Lexicon IT Proffs and Luleå University of Technology. I thrive on crafting intuitive, responsive, and high-quality user interfaces that deliver exceptional user experiences.
+## 📞 Kontakt
 
-My journey in web development is driven by a desire to innovate, solve complex problems, and continuously learn new technologies. I am adept at translating design concepts into clean, maintainable, and performant code.
+<div class="contact-grid">
+  <div class="profile-section">
+    <img src="/assets/images/mypic1.jpg" alt="Paul Yashouh's Photo" width="100" style="border-radius: 50px" class="profile-img-large">
+    <p class="title">Fullstack Developer</p>
+  </div>
+  <div class="contact-info">
+    <div class="contact-row">
+      <div class="contact-col">
+        <div class="contact-field">
+          <span class="icon">📞</span>
+          <div>
+            <div class="label">Telefon</div>
+            <div class="value">0728641357</div>
+          </div>
+        </div> 
+        <div class="contact-field">
+          <span class="icon">✉️</span>
+          <div>
+            <div class="label">Email</div>
+            <div class="value"><a href="mailto:paulyashou81@gmail.com">paulyashou81@gmail.com</a></div>
+          </div>
+        </div> 
+        <div class="contact-field">
+          <span class="icon">📍</span>
+            <div class="label">Adress</div>
+            <div class="value">Ringvägen 13, Fagersta</div>
+        </div>
+      </div>
+      <div class="contact-col">
+        <div class="contact-field">
+          <span class="icon">💼</span>
+          <div>
+            <div class="label">GitHub</div>
+            <div class="value"><a href="https://github.com/payamaya/" target="_blank">github.com/payamaya</a></div>
+          </div>
+        </div>
+        <div class="contact-field">
+          <span class="icon">🔗</span>
+          <div>
+            <div class="label">LinkedIn</div>
+            <div class="value"><a href="https://www.linkedin.com/in/payamaya/" target="_blank">linkedin.com/in/payamaya</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+# 💼 Profil
+
+Jag är en engagerad Junior Fullstack-utvecklare med fokus på React, TypeScript och C# .NET.
+Jag har erfarenhet av responsiva gränssnitt (JavaScript, Tailwind, Bootstrap 5), databashantering (SQL Server, NoSQL) samt API-utveckling med ASP.NET Core, Swagger och Postman.
+Jag arbetar enligt SOLID-principerna, Clean Code och agila metoder (Scrum).
+Mitt fokus ligger på noggrannhet, problemlösning och att skapa användarvänliga och skalbara lösningar.
 
 ---
 
-## 🛠️ My Skills
+## 🧠Teknisk profil
 
-Here's a summary of my key technical competencies:
-
-### Frontend Technologies
-
-- **Languages:** JavaScript (ES6+), TypeScript, HTML5, CSS3
-- **Frameworks/Libraries:** React (including React Hooks), Next.js
-- **Styling:** Tailwind CSS, Bootstrap 5, Styled Components (if you use them, otherwise omit)
-- **State Management:** (Mention if you have specific experience, e.g., React Query, Zustand - as Krea uses them)
-- **Build Tools:** Webpack, Vite (if familiar)
-- **UI/UX:** Figma (for design implementation), Responsive Web Design, Mobile-First Design, Accessibility (A11y)
+- **Frontend:** JavaScript (ES6+), TypeScript, HTML5, CSS3
+- **Backend:** C# (.NET),Java, PHP, REST API:er,Nodejs, Entity Framework, LINQ
+- **Databaser:** PostgreSQL, SQLite, MySQL, MongoDB (grundläggande)
+- **Verktyg & Plattformar:** Git, GitHub, Git Bash, Docker(grundläggande), Visual Studio, Visual Studio Code, IntelliJ, Postman
+- **Test & Kvalitet:** Testbar kod, kodgranskning, modultestning, versionshantering (Git).
+- **Design & Planering** Figma, Miro, draw.io
+- **Arkitektur & Principer**SOLID, Clean Code, Design Patterns, OCP, Testbarhet, Hög kohesion och Låg koppling.
+- **Arbetssätt** Agilt arbetssätt, distansarbete, samarbete i team
 
 ### Fullstack & Backend Familiarity
 
@@ -69,7 +120,4 @@ Thank you for visiting my portfolio!
 
 ---
 
-**[Optional: Add a professional photo here, in `/assets/images/mypic1.jpg`]**
-**[Optional: Add a professional photo here, in `assets/images/examens-bild.png`]**
-_Example: `<img src="assets/images/examens-bild.png" alt="Paul Yashouh's Photo" width="200" style="border-radius: 50%;">`_
-_Example: `<img src="/assets/images/mypic1.jpg" alt="Paul Yashouh's Photo" width="200" style="border-radius: 50%;">`_
+<!-- <img src="assets/images/examens-bild.png" alt="Paul Yashouh's Photo" width="200" style="border-radius: 50%;"> -->
