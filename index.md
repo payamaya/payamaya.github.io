@@ -18,7 +18,9 @@ layout: default
           <span class="icon">📞</span>
           <div>
             <div class="label">Telefon</div>
-            <div class="value">0728641357</div>
+             <a class="value" title='Ring oss' href='tel:0728641357'>
+              072 864 1357
+            </a>
           </div>
         </div> 
         <div class="contact-field">
