@@ -496,3 +496,30 @@ form {
     z-index: -1;
   }
 }
+/* Hide hamburger on large screens */
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+
+  /* Show the nav horizontally on desktop */
+  #nav-menu {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background: none;
+    padding: 0;
+  }
+
+  #nav-menu li {
+    margin-left: 1rem;
+  }
+
+  #nav-menu li a {
+    padding: 0.5rem 1rem;
+  }
+}

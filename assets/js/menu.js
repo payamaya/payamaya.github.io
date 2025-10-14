@@ -1,12 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
+  /* ==============================
+     THEME TOGGLE LOGIC
+  =============================== */
   const themeToggle = document.getElementById('themeToggle')
-  if (!themeToggle) {
-    console.warn('Theme toggle button not found')
-    return
-  }
-
-  const lightIcon = themeToggle.querySelector('.light-icon')
-  const darkIcon = themeToggle.querySelector('.dark-icon')
+  const lightIcon = themeToggle?.querySelector('.light-icon')
+  const darkIcon = themeToggle?.querySelector('.dark-icon')
 
   const savedTheme =
     localStorage.getItem('theme') ||
@@ -28,15 +26,41 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Apply theme on load
   applyTheme(savedTheme)
 
-  // Toggle theme on click
-  themeToggle.addEventListener('click', () => {
+  themeToggle?.addEventListener('click', () => {
     const currentTheme =
       document.documentElement.getAttribute('data-theme') === 'dark'
         ? 'dark'
         : 'light'
     applyTheme(currentTheme === 'dark' ? 'light' : 'dark')
   })
+
+  /* ==============================
+     HAMBURGER MENU TOGGLE LOGIC
+  =============================== */
+  const hamburger = document.getElementById('hamburger')
+  const navMenu = document.getElementById('nav-menu')
+
+  if (hamburger && navMenu) {
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('show')
+    })
+
+    // Close menu when a nav link is clicked
+    document.querySelectorAll('#nav-menu a').forEach((link) => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('show')
+      })
+    })
+
+    // Close when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!navMenu.contains(e.target) && !hamburger.contains(e.target)) {
+        navMenu.classList.remove('show')
+      }
+    })
+  } else {
+    console.warn('Hamburger menu elements not found.')
+  }
 })
