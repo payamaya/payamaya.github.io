@@ -6,6 +6,7 @@
 }
 
 .project-card {
+  display: flex;
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 1.5rem;
@@ -14,6 +15,11 @@
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
+  width: 200px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .project-card:hover {
@@ -22,10 +28,15 @@
 }
 
 .project-card img {
-  width: 100%;
-  height: auto;
+  display: flex;
+  /* width: auto; */
+  /* height: 200px; */
   border-radius: 8px;
   margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .project-card h3 {
