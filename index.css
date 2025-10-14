@@ -92,7 +92,7 @@ nav ul li a.active {
 
 /* PROJETCS */
 /* Projects grid */
-.projects {
+/* .projects {
   display: grid;
   gap: 2rem;
 }
@@ -101,7 +101,7 @@ nav ul li a.active {
   border: 1px solid #ddd;
   padding: 1.5rem;
   border-radius: 8px;
-}
+} */
 
 /* Contact form */
 form {
