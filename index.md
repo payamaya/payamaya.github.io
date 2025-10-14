@@ -8,7 +8,6 @@ layout: default
 
 <div class="contact-grid">
   <div class="profile-section">
-    <img src="/assets/images/mypic1.jpg" alt="Paul Yashouh's Photo" width="100" style="border-radius: 50px" class="profile-img-large">
     <p class="title">Fullstack Developer</p>
   </div>
   <div class="contact-info">

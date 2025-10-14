@@ -7,3 +7,9 @@
   description: 'RESTful API for e-commerce'
   url: '/projects/dotnet-api'
   tags: ['c#', '.net']
+
+- name: 'La bambi'
+  description: 'Restuarang (SPA) application build with Nextjs'
+  url: '/https://labambi.se'
+  image: '/assets/images/opengraph-image.png'
+  tags: ['Nextjs', 'Tailwind CSS']
