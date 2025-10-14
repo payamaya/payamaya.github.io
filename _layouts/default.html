@@ -6,10 +6,15 @@
   {% if page.css %}
   <link rel="stylesheet" href="{{ page.css | relative_url }}">
   {% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/footer.css' | relative_url }}">
 </head>
 
 <body>
   {% include header.html %}
+  <button class="theme-toggle" id="themeToggle">
+    <span class="light-icon">☀️</span>
+    <span class="dark-icon" style="display:none;">🌙</span>
+  </button>
   <main>
     {{ content }}
   </main>

@@ -3,9 +3,9 @@
   url: '/projects/task-manager'
   tags: ['react', 'firebase']
 
-- name: '.NET API'
+- name: 'Fransons Snickeri'
   description: 'RESTful API for e-commerce'
-  url: '/projects/dotnet-api'
+  url: 'https://fransonssnickeri.se'
   tags: ['c#', '.net']
 
 - name: 'La bambi'
