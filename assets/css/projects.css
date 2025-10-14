@@ -2,6 +2,7 @@
   display: grid;
   gap: 2rem;
   padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 .project-card {
@@ -10,15 +11,41 @@
   padding: 1.5rem;
   background: var(--card-bg);
   box-shadow: 0 4px 12px var(--card-shadow);
-  transition: transform 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 6px 16px var(--card-shadow);
 }
 
 .project-card img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  margin: 0.5rem 0;
+}
+
+.project-card p {
+  color: var(--text-color);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.project-card a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.project-card a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
 }
