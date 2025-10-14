@@ -18,7 +18,8 @@
   --card-bg: #1e1e1e;
   --card-shadow: rgba(0, 0, 0, 0.3);
 }
-html {
+html,
+body {
   transition:
     background-color 0.3s ease,
     color 0.3s ease;
