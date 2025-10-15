@@ -2,6 +2,7 @@
 layout: default
 title: Contact Me
 description: Get in touch
+css: /assets/css/contact.css
 ---
 
 # Contact Me
