@@ -36,6 +36,6 @@
 - name: 'Cheat Sheet'
   description: 'Cheat Sheet is a fullstack app for browsing, searching, and organizing programming cheatsheets and code snippets. Built with React, TypeScript, and Tailwind CSS on the frontend and powered by an Express + PostgreSQL backend on Vercel, it supports dynamic data handling via Axios and RESTful APIs. Designed with SOLID principles for speed, clarity, and scalability across languages and frameworks.'
   url: 'https://cheatsheet-hub-gamma.vercel.app/'
-  image: '/assets/images/cheatsheet.jpg'
+  image: '/assets/images/cheatsheet.png'
   tags:
     ['React', 'TypeScript', 'Tailwind CSS', 'Express', 'PostgreSQL', 'Vercel']
