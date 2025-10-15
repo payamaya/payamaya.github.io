@@ -29,5 +29,5 @@
 - name: 'TodoList App'
   description: 'The Cocktail DB is a React TypeScript app that functions as a cocktail encyclopedia, offering random drinks, search, detailed info, favorites, and ingredient exploration—focused on smooth user experience and dynamic features.'
   url: 'https://labambi.se'
-  image: '/assets/images/LaBambilogo.png'
+  image: '/assets/images/drinks.jpg'
   tags: ['Nextjs', 'Tailwind CSS']
