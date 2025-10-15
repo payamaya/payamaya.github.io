@@ -5,6 +5,6 @@ main:
   - name: 'Projects'
     url: '/projects'
   - name: 'Contact'
-    url: '/contact'
+    url: '/contact-page'
   - name: 'About'
     url: '/about'
