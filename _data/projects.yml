@@ -3,6 +3,12 @@
   url: '/projects/task-manager'
   tags: ['react', 'firebase']
 
+- name: 'AI Fitness Trainer'
+  description: 'A productivity app built with React tyepscript and Firebase and deployed on vercel serverless'
+  url: 'https://trainer-ai-six.vercel.app/'
+  image: '/assets/images/andyanimeoriginal.png'
+  tags: ['react', 'firebase']
+
 - name: 'Fransons Snickeri'
   description: 'RESTful API for e-commerce'
   url: 'https://fransonssnickeri.se'
@@ -10,6 +16,18 @@
 
 - name: 'La bambi'
   description: 'Restuarang (SPA) application build with Nextjs'
+  url: 'https://labambi.se'
+  image: '/assets/images/LaBambilogo.png'
+  tags: ['Nextjs', 'Tailwind CSS']
+
+- name: 'TodoList App'
+  description: 'TodoList application build with React Typescript.'
+  url: 'https://labambi.se'
+  image: '/assets/images/LaBambilogo.png'
+  tags: ['Nextjs', 'Tailwind CSS']
+
+- name: 'TodoList App'
+  description: 'The Cocktail DB is a React TypeScript app that functions as a cocktail encyclopedia, offering random drinks, search, detailed info, favorites, and ingredient exploration—focused on smooth user experience and dynamic features.'
   url: 'https://labambi.se'
   image: '/assets/images/LaBambilogo.png'
   tags: ['Nextjs', 'Tailwind CSS']
