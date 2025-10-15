@@ -4,7 +4,7 @@
   tags: ['react', 'firebase']
 
 - name: 'AI Fitness Trainer'
-  description: 'A productivity app built with React tyepscript and Firebase and deployed on vercel serverless'
+  description: 'A productivity app built with React TypeScript and Firebase and deployed on vercel serverless'
   url: 'https://trainer-ai-six.vercel.app/'
   image: '/assets/images/andyanimeoriginal.png'
   tags: ['react', 'firebase']
@@ -16,7 +16,7 @@
   tags: ['Nextjs 14', 'react-dom', 'Tailwind CSS']
 
 - name: 'La bambi'
-  description: 'Restuarang (SPA) application build with Nextjs'
+  description: 'A restaurant single-page application built with Next.js, featuring internationalization support, Google Maps integration, and PWA capabilities. Utilizes modern React libraries and APIs for a seamless user experience.'
   url: 'https://labambi.se'
   image: '/assets/images/LaBambilogo.png'
   tags: ['Nextjs', 'Tailwind CSS']
