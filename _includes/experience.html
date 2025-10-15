@@ -17,9 +17,12 @@
       <li>{{ item }}</li>
       {% endfor %}
       {% endif %}
+
       {% if job.details %}
       {% for detail in job.details %}
-      <li>{{ detail }}</li>
+      {% for key, value in detail %}
+      <li><strong>{{ key }}:</strong> {{ value }}</li>
+      {% endfor %}
       {% endfor %}
       {% endif %}
     </ul>
