@@ -19,10 +19,8 @@
       {% endif %}
 
       {% if job.details %}
-      {% for detail in job.details %}
-      {% for key, value in detail %}
+      {% for key, value in job.details %}
       <li><strong>{{ key }}:</strong> {{ value }}</li>
-      {% endfor %}
       {% endfor %}
       {% endif %}
     </ul>
