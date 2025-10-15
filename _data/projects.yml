@@ -10,9 +10,10 @@
   tags: ['react', 'firebase']
 
 - name: 'Fransons Snickeri'
-  description: 'RESTful API for e-commerce'
+  description: 'Welcome to the Snickeri project! This project is built using Next.js 14 and Tailwind CSS, providing a modern and responsive web application for your snickeri business.'
   url: 'https://fransonssnickeri.se'
-  tags: ['c#', '.net']
+  image: '/assets/images/fransonssnickeri.webp'
+  tags: ['Nextjs 14', 'react-dom', 'Tailwind CSS']
 
 - name: 'La bambi'
   description: 'Restuarang (SPA) application build with Nextjs'
