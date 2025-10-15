@@ -26,7 +26,7 @@
   image: '/assets/images/todolist.png'
   tags: ['Javascript', 'CSS']
 
-- name: 'TodoList App'
+- name: 'Cocktail App'
   description: 'The Cocktail DB is a React TypeScript app that functions as a cocktail encyclopedia, offering random drinks, search, detailed info, favorites, and ingredient exploration—focused on smooth user experience and dynamic features.'
   url: 'https://exercise-react-cocktail-api.vercel.app/'
   image: '/assets/images/drinks.jpg'
