@@ -1,10 +1,10 @@
 ---
 layout: default
-title: My Projects
+title: Footer
 description: Showcase of my programming projects
 css: /assets/css/footer.css
 ---
 
-# This is my projects
+# This is the footer section
 
 {% include footer.html %}

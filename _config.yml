@@ -2,42 +2,28 @@
 title: Paul Yashouh - Fullstack Developer
 description: My personal portfolio showcasing frontend development expertise, fullstack knowledge, and projects.
 author: Paul Yashouh
-email: paulyashou81@gmail.com # Optional, but good for contact
+email: paulyashou81@gmail.com
 
-# Base URL (for GitHub Pages)
-# IMPORTANT: If your repository is `username.github.io`, leave baseurl empty.
-# If your repository is `username.github.io/my-portfolio`, then set baseurl: "/my-portfolio"
-baseurl: '' # The subpath of your site, e.g. /blog
-url: 'https://payamaya.github.io/' # The base hostname & protocol for your site
+# GitHub Pages settings
+baseurl: '' # Leave empty if deployed as payamaya.github.io
+url: 'https://payamaya.github.io'
 
 # Theme
-# This is a very common default theme that looks clean.
-# You can explore others like "hyde" or search for Jekyll themes.
 theme: minima
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# For more information, please see:
-# https://jekyllrb.com/docs/configuration/
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
 
-# Plugins (if you decide to use Jekyll plugins later)
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag # Recommended for SEO
-
-  # Include additional files
-include:
-  - index.css
-
-# Enable both .md and .html extensions
+# Permalink style
 permalink: pretty
 
 # Header pages
@@ -45,4 +31,6 @@ header_pages:
   - index.md
   - projects.md
   - contact.md
-  # Add other pages like projects.md, about.md if you have them
+  - contact-me.md
+  - about.md
+  - footer.md
