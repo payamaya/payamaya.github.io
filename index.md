@@ -28,38 +28,7 @@ css:
 
 ---
 
-## 🎓 Utbildning & Kurser
-
-### Systemutvecklare Fullstack – Luleå Tekniska Universitet (30 hp) & Lexicon IT
-
-Distans 📅 2024 - 2025 (1 år via Arbetsförmedlingen)
-
-- Heltidsutbildning med fokus på systemutveckling inom både frontend och backend
-- Praktik (LIA) 2 månader, utvecklade verkliga projekt enligt SOLID-principer och agila metoder
-
-### Kursinnehåll LTU: (30 hp)
-
-- Programvaruteknik
-- Datorkommunikation
-- Dator-Nätverkssäkerhet
-- Generativ AI
-- Programvaruprojekt
-
-### Kursinnehåll Lexicon IT Proffs
-
-- Systemutveckling fullstack med fokus på C#
-- Webbutveckling med fokus på React
-- Integrationer och APIer
-- Frontend (HTML, CSS, JavaScript, Bootstrap 5)
-
----
-
-KYH Yrkeshögskola – Frontendutveckling (Distans)  
-📅 20 aug. 2021 - 16 juni 2023 (2 år utbildning)
-
-- Yrkeshögskoleutbildning med 6 månaders praktik LIA
-- Fokus på moderna frontendramverk, designprinciper och praktiskt projektarbete
-  🔗Examensbevis
+{% include education.html %}
 
 ---
 

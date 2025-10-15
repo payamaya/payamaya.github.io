@@ -1,0 +1,33 @@
+<section class="education">
+  <h2>🎓 Utbildning & Kurser</h2>
+
+  {% for edu in site.data.education %}
+  <article class="education-item">
+    <h3>{{ edu.program }} – {{ edu.school }}</h3>
+    <p class="meta">📍 {{ edu.location }} | 📅 {{ edu.period }}</p>
+
+    {% if edu.description %}
+    <p class="description">{{ edu.description }}</p>
+    {% endif %}
+
+    {% if edu.details %}
+    <div class="education-details">
+      {% for pair in edu.details %}
+      {% assign key = pair[0] %}
+      {% assign value = pair[1] %}
+      <h4>{{ key }}</h4>
+      <ul>
+        {% for item in value %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if edu.link %}
+    <p><a href="{{ edu.link }}" target="_blank" class="edu-link">🔗 Besök skolan</a></p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
