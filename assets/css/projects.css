@@ -1,17 +1,17 @@
 .projects {
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
   /* padding: 2rem; */
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   justify-items: center;
-  margin-block: 1rem;
+  margin: 1rem;
 }
 
 .project-card {
   display: flex;
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: 1rem;
   background: var(--card-bg);
   box-shadow: 0 4px 12px var(--card-shadow);
   transition:

@@ -90,19 +90,6 @@ nav ul li a.active {
   padding: 0.5rem;
 }
 
-/* PROJETCS */
-/* Projects grid */
-/* .projects {
-  display: grid;
-  gap: 2rem;
-}
-
-.project-card {
-  border: 1px solid #ddd;
-  padding: 1.5rem;
-  border-radius: 8px;
-} */
-
 .profile-section {
   text-align: center;
   padding: 1rem;
@@ -138,7 +125,7 @@ nav ul li a.active {
   display: inline-block;
 }
 
-.contact-info {
+/* .contact-info {
   display: flex;
   align-items: center;
 }
@@ -216,89 +203,11 @@ nav ul li a.active {
 .contact-field .value a:hover {
   color: #2563eb;
   text-decoration: underline;
-}
-
-/* Special styling for phone link */
-.contact-field .value a[href^='tel:'] {
-  font-weight: 600;
-  color: #2563eb;
-}
-
-.contact-field .value a[href^='tel:']:hover {
-  color: #1d4ed8;
-  text-decoration: none;
-  transform: translateY(-1px);
-}
-
-/* Email link styling */
-.contact-field .value a[href^='mailto:'] {
-  color: var(--text-color);
-}
-
-.contact-field .value a[href^='mailto:']:hover {
-  color: #2563eb;
-}
-
-/* External link styling (GitHub, LinkedIn) */
-.contact-field .value a[target='_blank'] {
-  color: var(--text-color);
-  position: relative;
-}
-
-.contact-field .value a[target='_blank']:hover {
-  color: #2563eb;
-}
-
-.contact-field .value a[target='_blank']::after {
-  content: '↗';
-  font-size: 0.8em;
-  margin-left: 2px;
-  opacity: 0.7;
-}
-
-/* Dark theme adjustments */
-[data-theme='dark'] .contact-grid {
-  background: var(--card-bg);
-  border: 1px solid #374151;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-}
-
-[data-theme='dark'] .contact-field {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid #374151;
-}
-
-[data-theme='dark'] .contact-field:hover {
-  background: rgba(37, 99, 235, 0.2);
-  border-color: #2563eb;
-}
-
-[data-theme='dark'] .contact-field .label {
-  color: #d1d5db;
-}
-
-[data-theme='dark'] .contact-field .value {
-  color: #f3f4f6;
-}
-
-[data-theme='dark'] .contact-field .value a {
-  color: #f3f4f6;
-}
-
-[data-theme='dark'] .contact-field .value a:hover {
-  color: #60a5fa;
-}
-
-[data-theme='dark'] .contact-field .value a[href^='tel:'] {
-  color: #60a5fa;
-}
-
-[data-theme='dark'] .contact-field .value a[href^='tel:']:hover {
-  color: #93c5fd;
-}
+} */
+/* NOTE THIS CSS MAY NEED TO REMOVE */
 
 /* Mobile responsive */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -347,7 +256,7 @@ nav ul li a.active {
     width: 100px;
     height: 100px;
   }
-}
+} */
 /* --------------------------- */
 
 /* Mobile Menu Styles */
