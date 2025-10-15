@@ -1,0 +1,11 @@
+- title: Personligt projekt – Hemsidor för Snickeri & Restaurang
+  type: Projekt
+  description: >
+    Byggde två responsiva webbplatser i Next.js med Tailwind CSS.
+    Fokus på mobilanpassning, SEO och Google-indexering.
+    All kod och design utvecklades självständigt.
+  links:
+    - name: fransonssnickeri.se
+      url: https://fransonssnickeri.se
+    - name: labambi.se
+      url: https://labambi.se

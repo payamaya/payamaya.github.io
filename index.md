@@ -32,14 +32,7 @@ css:
 
 ---
 
-### ⚡Övrigt & Projekt
-
-## Personligt projekt – Hemsidor för Snickeri & Restaurang
-
-- Byggde två responsiva webbplatser i Next.js med Tailwind CSS
-- Fokus på mobilanpassning, SEO och Google-indexering
-- All kod och design utvecklades självständigt
-- **\*Länkar: fransonssnickeri.se , labambi.se**
+{% include other.html %}
 
 ---
 
