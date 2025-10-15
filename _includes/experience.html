@@ -1,0 +1,28 @@
+<section class="experience">
+  <h2>💼 Praktik & Arbetslivserfarenhet</h2>
+
+  {% for job in site.data.experience %}
+  <article class="experience-item">
+    <h3>{{ job.role }} / {{ job.company }} <span class="tag">({{ job.type }})</span></h3>
+    <p class="location">📍 {{ job.location }}</p>
+    <p class="date">📅 {{ job.period }}</p>
+
+    {% if job.description %}
+    <p>{{ job.description }}</p>
+    {% endif %}
+
+    <ul>
+      {% if job.highlights %}
+      {% for item in job.highlights %}
+      <li>{{ item }}</li>
+      {% endfor %}
+      {% endif %}
+      {% if job.details %}
+      {% for detail in job.details %}
+      <li>{{ detail }}</li>
+      {% endfor %}
+      {% endif %}
+    </ul>
+  </article>
+  {% endfor %}
+</section>

@@ -20,32 +20,11 @@ css:
 
 ---
 
-## 🧠 Teknisk profil
-
 {% include technical-profile.html %}
 
 ---
 
-## 💼 Praktik & Arbetslivserfarenhet
-
-### Frontendutvecklare praktik / webbyrå AB (Praktik)
-
-Distans 📅 nov 2022 - apr 2023 (6 månader)
-
-- Arbetade med JavaScript, PHP, WordPress och Figma.
-- Utvecklade responsiva webbplatser och optimerade användarupplevelsen.
-- Erfarenhet av distansarbete och digital teamkommunikation.
-
-### Teknisk Arbetsledare/TeknikAkademin (Praktik)
-
-Distans 📅 mars 2025- maj 2025 (2 månader)
-
-Ledde ett distribuerat team i utvecklingen av en fullstack-applikation (React/TypeScript & C# .NET/PostgreSQL)
-
-- Roll: Teamledare/ Fullstack Utvecklare
-- Tekniker: React, TypeScript, C# .NET, PostgreSQL, GitHub
-- Arkitektur & Principer: SOLID, Booch Metrics, Clean Code
-- Arbetssätt: Agilt samarbete, distans
+{% include experience.html %}
 
 ---
 
