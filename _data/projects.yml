@@ -11,5 +11,5 @@
 - name: 'La bambi'
   description: 'Restuarang (SPA) application build with Nextjs'
   url: 'https://labambi.se'
-  image: '/assets/images/opengraph-image.png'
+  image: '/assets/images/LaBambilogo.png'
   tags: ['Nextjs', 'Tailwind CSS']
