@@ -1,9 +1,11 @@
 <section class="technical-profile">
   <h2>🧠 Teknisk profil</h2>
   <ul>
-    <li><strong>Frontend:</strong> JavaScript, TypeScript, HTML, CSS</li>
-    <li><strong>Backend:</strong> C#, .NET, Java, PHP, Node.js</li>
-    <li><strong>Databaser:</strong> PostgreSQL, MySQL, MongoDB</li>
-    <li><strong>Verktyg:</strong> Git, Docker, VS Code, IntelliJ</li>
+    {% for item in site.data.technical-profile %}
+    <li>
+      <strong>{{ item.category }}:</strong>
+      {{ item.skills | join: ', ' }}
+    </li>
+    {% endfor %}
   </ul>
 </section>

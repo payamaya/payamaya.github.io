@@ -1,0 +1,11 @@
+- category: Frontend
+  skills: [JavaScript, TypeScript, HTML, CSS]
+
+- category: Backend
+  skills: [C#, .NET, Java, PHP, Node.js]
+
+- category: Databaser
+  skills: [PostgreSQL, MySQL, MongoDB]
+
+- category: Verktyg
+  skills: [Git, Docker, VS Code, IntelliJ]

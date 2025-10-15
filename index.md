@@ -12,13 +12,9 @@ css:
   - /assets/css/other.css
 ---
 
-## 📞 Kontakt
-
 {% include contact-me.html %}
 
 ---
-
-# 💼 Profil
 
 {% include profile.html %}
 

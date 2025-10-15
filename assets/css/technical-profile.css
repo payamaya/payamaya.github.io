@@ -1,0 +1,96 @@
+/* ===============================
+   🧠 Technical Profile Section
+   =============================== */
+.technical-profile {
+  background: var(--section-bg, #f9fafb);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Inter', system-ui, sans-serif;
+  transition:
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Section Title */
+.technical-profile h2 {
+  font-size: 1.8rem;
+  color: #2563eb; /* blue-600 */
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+/* Unordered List Styling */
+.technical-profile ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem 2rem;
+}
+
+/* List Items */
+.technical-profile li {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.technical-profile li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+}
+
+/* Text Styling */
+.technical-profile strong {
+  color: #111827;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.technical-profile li {
+  color: #374151;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+/* Dark Theme Support */
+[data-theme='dark'] .technical-profile {
+  background: #111827;
+  box-shadow: none;
+}
+
+[data-theme='dark'] .technical-profile li {
+  background: #1f2937;
+  border-color: #374151;
+  color: #d1d5db;
+}
+
+[data-theme='dark'] .technical-profile strong {
+  color: #f9fafb;
+}
+
+/* Mobile Friendly Adjustments */
+@media (max-width: 600px) {
+  .technical-profile {
+    padding: 1.5rem;
+  }
+
+  .technical-profile h2 {
+    font-size: 1.5rem;
+  }
+
+  .technical-profile ul {
+    grid-template-columns: 1fr;
+  }
+}
