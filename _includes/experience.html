@@ -19,7 +19,9 @@
       {% endif %}
 
       {% if job.details %}
-      {% for key, value in job.details %}
+      {% for pair in job.details %}
+      {% assign key = pair[0] %}
+      {% assign value = pair[1] %}
       <li><strong>{{ key }}:</strong> {{ value }}</li>
       {% endfor %}
       {% endif %}
