@@ -21,13 +21,13 @@
   tags: ['Nextjs', 'Tailwind CSS']
 
 - name: 'TodoList App'
-  description: 'TodoList application build with React Typescript.'
-  url: 'https://labambi.se'
-  image: '/assets/images/LaBambilogo.png'
-  tags: ['Nextjs', 'Tailwind CSS']
+  description: 'The TodoList App is a React TypeScript tool for managing tasks with add, complete, and remove options. It features routing, timestamps, authors, and advanced functions like editing, prioritizing, and sorting.'
+  url: 'https://exercise-react-todo-list-nu.vercel.app/'
+  image: '/assets/images/todolist.png'
+  tags: ['Javascript', 'CSS']
 
 - name: 'TodoList App'
   description: 'The Cocktail DB is a React TypeScript app that functions as a cocktail encyclopedia, offering random drinks, search, detailed info, favorites, and ingredient exploration—focused on smooth user experience and dynamic features.'
-  url: 'https://labambi.se'
+  url: 'https://exercise-react-cocktail-api.vercel.app/'
   image: '/assets/images/drinks.jpg'
   tags: ['Nextjs', 'Tailwind CSS']
