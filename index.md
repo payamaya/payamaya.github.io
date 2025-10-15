@@ -1,8 +1,16 @@
 ---
 layout: default
+title: Paul Yashouh Portfolio
+description: Fullstack Developer Portfolio
+css:
+  - /assets/css/contact-me.css
+  - /assets/css/profile.css
+  - /assets/css/technical-profile.css
+  - /assets/css/experience.css
+  - /assets/css/education.css
+  - /assets/css/projects.css
+  - /assets/css/other.css
 ---
-
-<h1>Paul Yashouh</h1>
 
 ## 📞 Kontakt
 
@@ -12,27 +20,98 @@ layout: default
 
 # 💼 Profil
 
----
-
-Jag är en engagerad Junior Fullstack-utvecklare med fokus på React, TypeScript och C# .NET.
-Jag har erfarenhet av responsiva gränssnitt (JavaScript, Tailwind, Bootstrap 5), databashantering (SQL Server, NoSQL) samt API-utveckling med ASP.NET Core, Swagger och Postman.
-Jag arbetar enligt SOLID-principerna, Clean Code och agila metoder (Scrum).
-Mitt fokus ligger på noggrannhet, problemlösning och att skapa användarvänliga och skalbara lösningar.
+{% include profile.html %}
 
 ---
 
 ## 🧠 Teknisk profil
 
-- **Frontend:** JavaScript (ES6+), TypeScript, HTML5, CSS3
-- **Backend:** C#, .NET, Java, PHP, Node.js, REST API:er, Entity Framework, LINQ
-- **Databaser:** PostgreSQL, SQLite, MySQL, MongoDB (grundläggande)
-- **Verktyg & Plattformar:** Git, GitHub, Docker (grundläggande), Visual Studio, VS Code, IntelliJ, Postman
-- **Test & Kvalitet:** Testbar kod, kodgranskning, modultestning, versionshantering (Git)
-- **Design & Planering:** Figma, Miro, draw.io
-- **Arkitektur & Principer:** SOLID, Clean Code, Design Patterns, OCP, Testbarhet, Hög kohesion & Låg koppling
-- **Arbetssätt:** Agilt arbetssätt, distansarbete, samarbete i team
+{% include technical-profile.html %}
 
 ---
+
+## 💼 Praktik & Arbetslivserfarenhet
+
+### Frontendutvecklare praktik / webbyrå AB (Praktik)
+
+Distans 📅 nov 2022 - apr 2023 (6 månader)
+
+- Arbetade med JavaScript, PHP, WordPress och Figma.
+- Utvecklade responsiva webbplatser och optimerade användarupplevelsen.
+- Erfarenhet av distansarbete och digital teamkommunikation.
+
+### Teknisk Arbetsledare/TeknikAkademin (Praktik)
+
+Distans 📅 mars 2025- maj 2025 (2 månader)
+
+Ledde ett distribuerat team i utvecklingen av en fullstack-applikation (React/TypeScript & C# .NET/PostgreSQL)
+
+- Roll: Teamledare/ Fullstack Utvecklare
+- Tekniker: React, TypeScript, C# .NET, PostgreSQL, GitHub
+- Arkitektur & Principer: SOLID, Booch Metrics, Clean Code
+- Arbetssätt: Agilt samarbete, distans
+
+---
+
+## 🎓 Utbildning & Kurser
+
+### Systemutvecklare Fullstack – Luleå Tekniska Universitet (30 hp) & Lexicon IT
+
+Distans 📅 2024 - 2025 (1 år via Arbetsförmedlingen)
+
+- Heltidsutbildning med fokus på systemutveckling inom både frontend och backend
+- Praktik (LIA) 2 månader, utvecklade verkliga projekt enligt SOLID-principer och agila metoder
+
+### Kursinnehåll LTU: (30 hp)
+
+- Programvaruteknik
+- Datorkommunikation
+- Dator-Nätverkssäkerhet
+- Generativ AI
+- Programvaruprojekt
+
+### Kursinnehåll Lexicon IT Proffs
+
+- Systemutveckling fullstack med fokus på C#
+- Webbutveckling med fokus på React
+- Integrationer och APIer
+- Frontend (HTML, CSS, JavaScript, Bootstrap 5)
+
+---
+
+KYH Yrkeshögskola – Frontendutveckling (Distans)  
+📅 20 aug. 2021 - 16 juni 2023 (2 år utbildning)
+
+- Yrkeshögskoleutbildning med 6 månaders praktik LIA
+- Fokus på moderna frontendramverk, designprinciper och praktiskt projektarbete
+  🔗Examensbevis
+
+---
+
+### ⚡Övrigt & Projekt
+
+## Personligt projekt – Hemsidor för Snickeri & Restaurang
+
+- Byggde två responsiva webbplatser i Next.js med Tailwind CSS
+- Fokus på mobilanpassning, SEO och Google-indexering
+- All kod och design utvecklades självständigt
+- **\*Länkar: fransonssnickeri.se , labambi.se**
+
+---
+
+### ✏️ Tidigare Arbetslivserfarenhet (Icke IT)
+
+HVB Kungsör– Behandlingsassistent 2020 - 2022 SIS ungdomshem– Behandlingsassistent 2017 - 2019
+Frilans inom film, musikvideo och reklam (lighting/gaffer) 2006 - 2016
+
+---
+
+Fritidsintressen
+Tränar regelbundet, gillar film och musik, spenderar gärna tid i naturen eller med familjen och tycker om att resa.
+🌍 Språk
+Svenska (flytande) | Engelska (flytande) | Arabiska (modersmål) | Armeniska (modersmål)
+📌Referenser  
+Referenser lämnas gärna på begäran
 
 ## 🚀 My Projects & Experience
 
