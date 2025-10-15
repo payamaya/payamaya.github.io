@@ -6,7 +6,7 @@ layout: default
 
 ## 📞 Kontakt
 
-{% include contact.html %}
+{% include contact-me.html %}
 
 ---
 
