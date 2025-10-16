@@ -27,6 +27,6 @@
    ======================================= */
 
 @import '/assets/css/pages/projects.css';
-@import '/assets/css/pages/aboutcss';
-@import '/assets/css/pages/home.css';
+@import '/assets/css/pages/about.css';
+/* @import '/assets/css/pages/home.css'; */
 @import '/assets/css/pages/404.css';
