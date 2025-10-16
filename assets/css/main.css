@@ -1,23 +1,31 @@
 /* =======================================
    🎨 BASE DESIGN SYSTEM & GLOBAL STYLES
    ======================================= */
-@import 'base/variables.css'; /* your :root variables (the section you just made) */
-@import 'base/global.css'; /* global resets, typography, body, links, etc. */
-@import 'base/utilities.css'; /* optional helpers: spacing, shadows, flex-center, etc. */
+@import 'base/_variables.css'; /* your :root variables (the section you just made) */
+@import 'base/_global.css'; /* global resets, typography, body, links, etc. */
+@import 'base/_utilities.css'; /* optional helpers: spacing, shadows, flex-center, etc. */
 
 /* =======================================
    🧱 LAYOUTS & COMPONENTS
    ======================================= */
-@import 'layout/header.css';
-@import 'layout/footer.css';
-@import 'layout/contact.css';
+@import 'layout/_header.css';
+@import 'layout/_footer.css';
+@import 'layout/_contact.css';
+
+/* =======================================
+   🏗️ COMPONENT-SPECIFIC STYLES
+   ======================================= */
+@import 'components/_profile.css';
+@import 'components/_technical-profile.css';
+@import 'components/_experience.css';
+@import 'components/_education.css';
+@import 'components/_contact-me.css';
+@import 'components/_other.css';
 
 /* =======================================
    🗂️ PAGE-SPECIFIC STYLES
    ======================================= */
-@import 'pages/profile.css';
-@import 'pages/technical-profile.css';
-@import 'pages/experience.css';
-@import 'pages/education.css';
-@import 'pages/projects.css';
-@import 'pages/other.css';
+@import 'pages/_projects.css';
+@import 'pages/_about.css';
+@import 'pages/_home.css';
+@import 'pages/_404.css';
