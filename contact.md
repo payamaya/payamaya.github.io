@@ -5,8 +5,4 @@ description: Get in touch to discuss web development projects, collaboration opp
 css: /assets/css/main.css
 ---
 
-# Contact Me
-
-Feel free to reach out via the form below, and I’ll get back to you soon.
-
 {% include contact.html %}
