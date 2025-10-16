@@ -3,13 +3,13 @@ layout: default
 title: Paul Yashouh Portfolio
 description: Paul Yashouh - Building digital experiences with modern web technologies. Portfolio featuring full-stack projects and development expertise
 css:
-  - /assets/css/components/_contact-me.css
-  - /assets/css/components/_profile.css
-  - /assets/css/components/_technical-profile.css
-  - /assets/css/components/_experience.css
-  - /assets/css/components/_education.css
-  - /assets/css/pages/_projects.css
-  - /assets/css/components/_other.css
+  - /assets/css/contact-me.css
+  - /assets/css/profile.css
+  - /assets/css/technical-profile.css
+  - /assets/css/experience.css
+  - /assets/css/education.css
+  - /assets/css/projects.css
+  - /assets/css/other.css
 ---
 
 {% include contact-me.html %}
