@@ -1,13 +1,23 @@
 .profile {
-  padding: 2rem;
-  background-color: #fafafa;
+  background: var(--section-bg, #f9fafb);
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Inter', system-ui, sans-serif;
+  transition:
+    background 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
+/* Section Title */
 .profile h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  color: #2563eb; /* blue-600 */
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 .profile p {

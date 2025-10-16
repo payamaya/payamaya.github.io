@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Paul Yashouh Portfolio
-description: Fullstack Developer Portfolio
+description: Paul Yashouh - Building digital experiences with modern web technologies. Portfolio featuring full-stack projects and development expertise
 css:
   - /assets/css/contact-me.css
   - /assets/css/profile.css
