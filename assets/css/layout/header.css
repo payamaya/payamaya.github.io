@@ -35,8 +35,8 @@ nav img {
   border: 2px solid var(--primary-color);
   transition:
     transform var(--transition-normal),
-    box-shadow var(--transition-normal);'
-    margin-block: 0.5rem;
+    box-shadow var(--transition-normal);
+  margin-block: 0.5rem;
 }
 
 nav img:hover {
