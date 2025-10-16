@@ -8,24 +8,25 @@
 /* =======================================
    🧱 LAYOUTS & COMPONENTS
    ======================================= */
-@import 'layout/header.css';
-@import 'layout/footer.css';
-@import 'layout/contact.css';
+@import '/assets/css/layout/header.css';
+@import '/assets/css/layout/footer.css';
+@import '/assets/css/layout/contact.css';
 
 /* =======================================
    🏗️ COMPONENT-SPECIFIC STYLES
    ======================================= */
-@import 'components/profile.css';
-@import 'components/technical-profile.css';
-@import 'components/experience.css';
-@import 'components/education.css';
-@import 'components/contact-me.css';
-@import 'components/other.css';
+@import '/assets/css/components/profile.css';
+@import '/assets/css/components/technical-profile.css';
+@import '/assets/css/components/experience.css';
+@import '/assets/css/components/education.css';
+@import '/assets/css/components/contact-me.css';
+@import '/assets/css/components/other.css';
 
 /* =======================================
    🗂️ PAGE-SPECIFIC STYLES
    ======================================= */
-@import 'pages/projects.css';
-@import 'pages/about.css';
-@import 'pages/home.css';
-@import 'pages/404.css';
+
+@import '/assets/css/pages/projects.css';
+@import '/assets/css/pages/aboutcss';
+@import '/assets/css/pages/home.css';
+@import '/assets/css/pages/404.css';
