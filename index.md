@@ -8,23 +8,13 @@ css:
 
 {% include contact-me.html %}
 
----
-
 {% include profile.html %}
-
----
 
 {% include technical-profile.html %}
 
----
-
 {% include experience.html %}
 
----
-
 {% include education.html %}
-
----
 
 {% include other.html %}
 
