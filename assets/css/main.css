@@ -1,9 +1,23 @@
-@import 'profile.css';
-@import 'technical-profile.css';
-@import 'experience.css';
-@import 'education.css';
-@import 'projects.css';
-@import 'footer.css';
-@import 'contact-me.css';
-@import 'contact.css';
-@import 'other.css';
+/* =======================================
+   🎨 BASE DESIGN SYSTEM & GLOBAL STYLES
+   ======================================= */
+@import 'base/variables.css'; /* your :root variables (the section you just made) */
+@import 'base/global.css'; /* global resets, typography, body, links, etc. */
+@import 'base/utilities.css'; /* optional helpers: spacing, shadows, flex-center, etc. */
+
+/* =======================================
+   🧱 LAYOUTS & COMPONENTS
+   ======================================= */
+@import 'layout/header.css';
+@import 'layout/footer.css';
+@import 'layout/contact.css';
+
+/* =======================================
+   🗂️ PAGE-SPECIFIC STYLES
+   ======================================= */
+@import 'pages/profile.css';
+@import 'pages/technical-profile.css';
+@import 'pages/experience.css';
+@import 'pages/education.css';
+@import 'pages/projects.css';
+@import 'pages/other.css';

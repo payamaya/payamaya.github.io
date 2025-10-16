@@ -22,47 +22,53 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  background: var(--card-bg, #f9fafb);
-  border-radius: 12px;
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
   padding: 0.75rem 1rem;
-  transition: all 0.3s ease;
+  transition: all var(--transition-normal);
+  box-shadow: 0 2px 6px var(--card-shadow);
+  border: 1px solid var(--border-color);
 }
 
 .contact-field:hover {
   transform: translateY(-3px);
-  background-color: rgba(37, 99, 235, 0.05);
+  background-color: var(--hover-shadow);
+  box-shadow: 0 4px 12px var(--hover-shadow);
 }
 
 .contact-field .icon {
   font-size: 1.5rem;
   min-width: 30px;
   text-align: center;
+  color: var(--primary-color);
 }
 
 .contact-field .label {
   font-weight: 600;
-  color: var(--text-color, #333);
+  color: var(--text-color);
 }
 
 .contact-field .value {
-  color: var(--text-color, #333);
+  color: var(--secondary-text);
   font-size: 0.95rem;
 }
+
+/* 🌙 DARK THEME OVERRIDES (handled automatically by [data-theme='dark']) */
 [data-theme='dark'] .contact-field {
-  background: #1f2937;
-  border: 1px solid #374151;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
 }
 
 [data-theme='dark'] .contact-field:hover {
-  background: rgba(37, 99, 235, 0.1);
+  background-color: rgba(37, 99, 235, 0.1);
 }
 
 [data-theme='dark'] .contact-field .label,
 [data-theme='dark'] .contact-field .value {
-  color: #f3f4f6;
+  color: var(--text-color);
 }
 
-/* Responsive layout */
+/* 📱 Responsive layout */
 @media (max-width: 768px) {
   .contact-row {
     flex-direction: column;

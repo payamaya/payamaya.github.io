@@ -1,10 +1,8 @@
 ---
 layout: default
-title: My Projects
-description: About myself
-css: /assets/css/about.css
+title: About Paul Yashouh
+description: Full-stack developer with expertise in modern web technologies. I specialize in creating responsive applications, clean architecture, and seamless user experiences that solve real-world problems
+css: /assets/css/pages/_about.css
 ---
-
-# This is my projects
 
 {% include about.html %}

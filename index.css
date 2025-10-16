@@ -1,31 +1,13 @@
-:root {
-  /* Light mode defaults */
-  --bg-color: #ffffff;
-  --text-color: #333333;
-  --primary-color: #2a3034;
-  --header-bg: #1b2025;
-  --header-text: #ffffff;
-  --card-bg: #f8f9fa;
-  --card-shadow: rgba(0, 0, 0, 0.1);
-}
+@import url('assets/css/main.css');
 
-[data-theme='dark'] {
-  /* Dark mode overrides */
-  --bg-color: #121212;
-  --text-color: #f8f9fa;
-  --primary-color: #191f22;
-  --header-bg: #1a1a1a;
-  --card-bg: #1e1e1e;
-  --card-shadow: rgba(0, 0, 0, 0.3);
-}
-html,
+/* html,
 body {
   transition:
     background-color 0.3s ease,
     color 0.3s ease;
 }
 
-/* Base Styles */
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -46,7 +28,7 @@ li {
   list-style: none;
 }
 
-/* Theme Toggle Button */
+
 .theme-toggle {
   background: none;
   border: none;
@@ -56,7 +38,7 @@ li {
   margin-left: 1rem;
 }
 
-/* Your Existing Styles (Updated for Theme) */
+
 img {
   border-radius: 50%;
   width: 50px;
@@ -68,7 +50,6 @@ nav ul li a.active {
   background-color: var(--primary-color);
 }
 
-/* Content Cards Example */
 .card {
   background: var(--card-bg);
   box-shadow: 0 2px 4px var(--card-shadow);
@@ -98,7 +79,7 @@ nav ul li a.active {
 .profile-img-large {
   width: 150px;
   height: 150px;
-  border-radius: 50px; /* Matches your inline style */
+  border-radius: 50px; 
   object-fit: cover;
   border: 4px solid #2563eb;
   margin-bottom: 1rem;
@@ -125,148 +106,14 @@ nav ul li a.active {
   display: inline-block;
 }
 
-/* .contact-info {
-  display: flex;
-  align-items: center;
-}
 
-.contact-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  width: 100%;
-}
-
-.contact-col {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.contact-field {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  padding: 1rem;
-  border-radius: 12px;
-  transition: all 0.3s ease;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.contact-field:hover {
-  background: rgba(37, 99, 235, 0.1);
-  border-color: rgba(37, 99, 235, 0.3);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
-}
-
-.contact-field .icon {
-  font-size: 1.5rem;
-  min-width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #2563eb, #3b82f6);
-  border-radius: 10px;
-  color: white;
-}
-
-.contact-field > div {
-  flex: 1;
-}
-
-.contact-field .label {
-  font-weight: 600;
-  color: #374151;
-  font-size: 0.85rem;
-  margin-bottom: 0.25rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.contact-field .value {
-  color: var(--text-color);
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 0;
-}
-
-.contact-field .value a {
-  color: var(--text-color);
-  text-decoration: none;
-  transition: color 0.3s ease;
-  display: inline-block;
-}
-
-.contact-field .value a:hover {
-  color: #2563eb;
-  text-decoration: underline;
-} */
-/* NOTE THIS CSS MAY NEED TO REMOVE */
-
-/* Mobile responsive */
-/* @media (max-width: 768px) {
-  .contact-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    text-align: center;
-    padding: 1.5rem;
-    margin: 1rem;
-  }
-
-  .contact-row {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .profile-img-large {
-    width: 120px;
-    height: 120px;
-  }
-
-  .contact-field {
-    padding: 0.75rem;
-  }
-
-  .contact-field .icon {
-    font-size: 1.25rem;
-    min-width: 35px;
-    height: 35px;
-  }
-}
-
-@media (max-width: 480px) {
-  .contact-grid {
-    padding: 1rem;
-  }
-
-  .contact-field {
-    flex-direction: column;
-    text-align: center;
-    gap: 0.5rem;
-  }
-
-  .contact-field .icon {
-    align-self: center;
-  }
-
-  .profile-img-large {
-    width: 100px;
-    height: 100px;
-  }
-} */
-/* --------------------------- */
-
-/* Mobile Menu Styles */
 @media (max-width: 768px) {
-  /* Hide desktop menu by default on mobile */
+
   #nav-menu {
     position: fixed;
     top: 0;
     left: -100%;
-    width: 70%; /* Takes up 70% of screen width */
+    width: 70%; 
     height: 100vh;
     background-color: var(--header-bg);
     flex-direction: column;
@@ -276,12 +123,12 @@ nav ul li a.active {
     margin-top: 0;
   }
 
-  /* Show menu when 'show' class is added */
+  
   #nav-menu.show {
     left: 0;
   }
 
-  /* Hamburger button styles */
+
   .hamburger {
     display: block;
     position: fixed;
@@ -296,7 +143,6 @@ nav ul li a.active {
     font-size: 1.5rem;
   }
 
-  /* Menu items */
   #nav-menu li {
     width: 100%;
     margin: 0.5rem 0;
@@ -308,7 +154,7 @@ nav ul li a.active {
     border-radius: 4px;
   }
 
-  /* Overlay when menu is open */
+  
   #nav-menu.show::before {
     content: '';
     position: fixed;
@@ -320,13 +166,13 @@ nav ul li a.active {
     z-index: -1;
   }
 }
-/* Hide hamburger on large screens */
+
 @media (min-width: 769px) {
   .hamburger {
     display: none;
   }
 
-  /* Show the nav horizontally on desktop */
+
   #nav-menu {
     position: static;
     display: flex;
@@ -346,4 +192,4 @@ nav ul li a.active {
   #nav-menu li a {
     padding: 0.5rem 1rem;
   }
-}
+} */
