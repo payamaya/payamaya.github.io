@@ -8,7 +8,7 @@ css:
   - /assets/css/technical-profile.css
   - /assets/css/experience.css
   - /assets/css/education.css
-  - /assets/css/projects.css
+  - /assets/css/pages/_projects.css
   - /assets/css/other.css
 ---
 
