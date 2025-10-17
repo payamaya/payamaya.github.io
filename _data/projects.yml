@@ -50,7 +50,7 @@
 
 - name: 'Modbus Dashboard'
   description: 'A real-time dashboard for monitoring Modbus data built with Spring Boot, SQLite, and React.'
-  url: 'https://github.com/payamaya/modbus-dashboard'
-  github: 'https://github.com/payamaya/modbus-dashboard'
+  url: 'https://modbus-frontend.vercel.app/'
+  github: 'https://github.com/payamaya/modbus-frontend'
   image: '/assets/images/iot.png'
   tags: ['Spring Boot', 'SQLite', 'React']
