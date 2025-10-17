@@ -139,6 +139,10 @@
   border-radius: var(--radius-md, 8px);
   margin-bottom: 1rem;
 }
+.project-image[alt='Default project preview'] {
+  opacity: 0.8;
+  filter: grayscale(40%);
+}
 
 /* === Project Text === */
 .project-card h3 {

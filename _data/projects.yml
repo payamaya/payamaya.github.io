@@ -45,12 +45,12 @@
   description: 'My personal portfolio showcasing projects and professional experience, designed with clean CSS architecture.'
   url: 'https://payamaya.github.io'
   github: 'https://github.com/payamaya/payamaya.github.io'
-  image: '/assets/images/projects/portfolio.png'
+
   tags: ['HTML', 'CSS', 'Jekyll']
 
 - name: 'Modbus Dashboard'
   description: 'A real-time dashboard for monitoring Modbus data built with Spring Boot, SQLite, and React.'
   url: 'https://github.com/payamaya/modbus-dashboard'
   github: 'https://github.com/payamaya/modbus-dashboard'
-  image: '/assets/images/projects/modbus-dashboard.png'
+  image: '/assets/images/iot.png'
   tags: ['Spring Boot', 'SQLite', 'React']
