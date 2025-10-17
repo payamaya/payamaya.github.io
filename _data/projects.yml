@@ -1,13 +1,7 @@
-- name: 'React Task Manager'
-  description: 'A productivity app built with React and Firebase.'
-  url: 'https://exercise-react-task-manager.vercel.app/'
-  github: 'https://github.com/payamaya/react-task-manager'
-  tags: ['React', 'Firebase']
-
 - name: 'AI Fitness Trainer'
   description: 'A productivity app built with React TypeScript and Firebase and deployed on Vercel serverless.'
   url: 'https://trainer-ai-six.vercel.app/'
-  github: 'https://github.com/payamaya/ai-fitness-trainer'
+  github: 'https://github.com/payamaya/Trainer-AI'
   image: '/assets/images/andyanimeoriginal.png'
   tags: ['React', 'TypeScript', 'Firebase', 'Vercel']
 
@@ -20,27 +14,28 @@
 - name: 'La Bambi'
   description: 'A restaurant single-page app built with Next.js, featuring i18n, Google Maps, and PWA support.'
   url: 'https://labambi.se'
+  github: 'https://github.com/payamaya/qrmenu'
   image: '/assets/images/LaBambilogo.png'
   tags: ['Next.js', 'Tailwind CSS']
 
 - name: 'TodoList App'
   description: 'A React TypeScript app for managing tasks with timestamps, authors, and sorting features.'
   url: 'https://exercise-react-todo-list-nu.vercel.app/'
-  github: 'https://github.com/payamaya/react-todo-list'
+  github: 'https://github.com/payamaya/exercise-react-todo-list'
   image: '/assets/images/todolist.png'
   tags: ['React', 'TypeScript', 'CSS']
 
 - name: 'Cocktail App'
   description: 'A React TypeScript app that serves as a cocktail encyclopedia with search, favorites, and details.'
   url: 'https://exercise-react-cocktail-api.vercel.app/'
-  github: 'https://github.com/payamaya/react-cocktail-api'
+  github: 'https://github.com/payamaya/exercise-react-cocktail-api'
   image: '/assets/images/drinks.jpg'
   tags: ['React', 'TypeScript', 'Tailwind CSS']
 
 - name: 'Cheat Sheet'
   description: 'A fullstack app for organizing programming cheatsheets and snippets, built with React, TypeScript, and Express.'
   url: 'https://cheatsheet-hub-gamma.vercel.app/'
-  github: 'https://github.com/payamaya/cheatsheet-app'
+  github: 'https://github.com/payamaya/cheatsheet-hub'
   image: '/assets/images/cheatsheet.png'
   tags:
     ['React', 'TypeScript', 'Tailwind CSS', 'Express', 'PostgreSQL', 'Vercel']
