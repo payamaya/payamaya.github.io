@@ -1,41 +1,60 @@
 - name: 'React Task Manager'
-  description: 'A productivity app built with React and Firebase'
-  url: '/projects/task-manager'
-  tags: ['react', 'firebase']
+  description: 'A productivity app built with React and Firebase.'
+  url: 'https://exercise-react-task-manager.vercel.app/'
+  github: 'https://github.com/payamaya/react-task-manager'
+  tags: ['React', 'Firebase']
 
 - name: 'AI Fitness Trainer'
-  description: 'A productivity app built with React TypeScript and Firebase and deployed on vercel serverless'
+  description: 'A productivity app built with React TypeScript and Firebase and deployed on Vercel serverless.'
   url: 'https://trainer-ai-six.vercel.app/'
+  github: 'https://github.com/payamaya/ai-fitness-trainer'
   image: '/assets/images/andyanimeoriginal.png'
-  tags: ['react', 'firebase']
+  tags: ['React', 'TypeScript', 'Firebase', 'Vercel']
 
 - name: 'Fransons Snickeri'
-  description: 'Welcome to the Snickeri project! This project is built using Next.js 14 and Tailwind CSS, providing a modern and responsive web application for your snickeri business.'
+  description: 'A modern and responsive web application for a snickeri business, built using Next.js 14 and Tailwind CSS.'
   url: 'https://fransonssnickeri.se'
   image: '/assets/images/fransonssnickeri.webp'
-  tags: ['Nextjs 14', 'react-dom', 'Tailwind CSS']
+  tags: ['Next.js 14', 'React', 'Tailwind CSS']
 
-- name: 'La bambi'
-  description: 'A restaurant single-page application built with Next.js, featuring internationalization support, Google Maps integration, and PWA capabilities. Utilizes modern React libraries and APIs for a seamless user experience.'
+- name: 'La Bambi'
+  description: 'A restaurant single-page app built with Next.js, featuring i18n, Google Maps, and PWA support.'
   url: 'https://labambi.se'
   image: '/assets/images/LaBambilogo.png'
-  tags: ['Nextjs', 'Tailwind CSS']
+  tags: ['Next.js', 'Tailwind CSS']
 
 - name: 'TodoList App'
-  description: 'The TodoList App is a React TypeScript tool for managing tasks with add, complete, and remove options. It features routing, timestamps, authors, and advanced functions like editing, prioritizing, and sorting.'
+  description: 'A React TypeScript app for managing tasks with timestamps, authors, and sorting features.'
   url: 'https://exercise-react-todo-list-nu.vercel.app/'
+  github: 'https://github.com/payamaya/react-todo-list'
   image: '/assets/images/todolist.png'
-  tags: ['Javascript', 'CSS']
+  tags: ['React', 'TypeScript', 'CSS']
 
 - name: 'Cocktail App'
-  description: 'The Cocktail DB is a React TypeScript app that functions as a cocktail encyclopedia, offering random drinks, search, detailed info, favorites, and ingredient exploration—focused on smooth user experience and dynamic features.'
+  description: 'A React TypeScript app that serves as a cocktail encyclopedia with search, favorites, and details.'
   url: 'https://exercise-react-cocktail-api.vercel.app/'
+  github: 'https://github.com/payamaya/react-cocktail-api'
   image: '/assets/images/drinks.jpg'
-  tags: ['Nextjs', 'Tailwind CSS']
+  tags: ['React', 'TypeScript', 'Tailwind CSS']
 
 - name: 'Cheat Sheet'
-  description: 'Cheat Sheet is a fullstack app for browsing, searching, and organizing programming cheatsheets and code snippets. Built with React, TypeScript, and Tailwind CSS on the frontend and powered by an Express + PostgreSQL backend on Vercel, it supports dynamic data handling via Axios and RESTful APIs. Designed with SOLID principles for speed, clarity, and scalability across languages and frameworks.'
+  description: 'A fullstack app for organizing programming cheatsheets and snippets, built with React, TypeScript, and Express.'
   url: 'https://cheatsheet-hub-gamma.vercel.app/'
+  github: 'https://github.com/payamaya/cheatsheet-app'
   image: '/assets/images/cheatsheet.png'
   tags:
     ['React', 'TypeScript', 'Tailwind CSS', 'Express', 'PostgreSQL', 'Vercel']
+
+- name: 'Portfolio Website'
+  description: 'My personal portfolio showcasing projects and professional experience, designed with clean CSS architecture.'
+  url: 'https://payamaya.github.io'
+  github: 'https://github.com/payamaya/payamaya.github.io'
+  image: '/assets/images/projects/portfolio.png'
+  tags: ['HTML', 'CSS', 'Jekyll']
+
+- name: 'Modbus Dashboard'
+  description: 'A real-time dashboard for monitoring Modbus data built with Spring Boot, SQLite, and React.'
+  url: 'https://github.com/payamaya/modbus-dashboard'
+  github: 'https://github.com/payamaya/modbus-dashboard'
+  image: '/assets/images/projects/modbus-dashboard.png'
+  tags: ['Spring Boot', 'SQLite', 'React']
