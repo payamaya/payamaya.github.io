@@ -11,7 +11,8 @@
       {% for project in site.data.projects %}
       <div class="project-card">
         {% if project.image %}
-        <img src="{{ project.image | relative_url }}" alt="{{ project.name }} preview" class="project-image">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.name }} preview" class="project-image">{% else %}
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Default project preview" class="project-image">
         {% endif %}
 
         <div class="project-content">

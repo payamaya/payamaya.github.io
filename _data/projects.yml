@@ -8,6 +8,7 @@
 - name: 'Fransons Snickeri'
   description: 'A modern and responsive web application for a snickeri business, built using Next.js 14 and Tailwind CSS.'
   url: 'https://fransonssnickeri.se'
+  github: 'https://github.com/payamaya/fransonssnickeri'
   image: '/assets/images/fransonssnickeri.webp'
   tags: ['Next.js 14', 'React', 'Tailwind CSS']
 
