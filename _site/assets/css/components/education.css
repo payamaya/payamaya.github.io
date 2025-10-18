@@ -1,0 +1,73 @@
+.education {
+  background: var(--section-bg);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  margin-top: 2rem;
+  font-family: var(--font-family);
+}
+
+.education h2 {
+  font-size: var(--font-size-large);
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.education-item {
+  background: var(--card-bg);
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px var(--card-shadow);
+  transition: all var(--transition-fast);
+}
+
+.education-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px var(--hover-shadow);
+}
+
+.education-item h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.education-item .meta {
+  font-size: var(--font-size-small);
+  color: var(--secondary-text);
+  margin-bottom: 0.8rem;
+}
+
+.education-item .description {
+  color: var(--secondary-text);
+  margin-bottom: 0.8rem;
+  line-height: var(--line-height);
+}
+
+.education-details h4 {
+  margin-top: 1rem;
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+.education-details ul {
+  margin-top: 0.4rem;
+  padding-left: 1.2rem;
+  color: var(--text-color);
+}
+
+.education-details li {
+  margin-bottom: 0.3rem;
+}
+
+.edu-link {
+  color: var(--accent-color);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.edu-link:hover {
+  text-decoration: underline;
+  color: var(--primary-hover);
+}

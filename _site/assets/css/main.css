@@ -1,0 +1,32 @@
+/* =======================================
+   🎨 BASE DESIGN SYSTEM & GLOBAL STYLES
+   ======================================= */
+@import '/assets/css/base/variables.css'; /* optional helpers: spacing, shadows, flex-center, etc. */
+@import '/assets/css/base/global.css'; /* your :root variables (the section you just made) */
+@import '/assets/css/base/utilities.css'; /* global resets, typography, body, links, etc. */
+
+/* =======================================
+   🧱 LAYOUTS & COMPONENTS
+   ======================================= */
+@import '/assets/css/layout/header.css';
+@import '/assets/css/layout/footer.css';
+@import '/assets/css/layout/contact.css';
+
+/* =======================================
+   🏗️ COMPONENT-SPECIFIC STYLES
+   ======================================= */
+@import '/assets/css/components/profile.css';
+@import '/assets/css/components/technical-profile.css';
+@import '/assets/css/components/experience.css';
+@import '/assets/css/components/education.css';
+@import '/assets/css/components/contact-me.css';
+@import '/assets/css/components/other.css';
+
+/* =======================================
+   🗂️ PAGE-SPECIFIC STYLES
+   ======================================= */
+
+@import '/assets/css/pages/projects.css';
+@import '/assets/css/pages/about.css';
+/* @import '/assets/css/pages/home.css'; */
+@import '/assets/css/pages/404.css';

@@ -1,0 +1,11 @@
+[data-theme='dark'] {
+  --primary-color: #2563eb;
+  --secondary-color: #1d4ed8;
+  --text-color: #f3f4f6;
+  --background-color: #111827;
+  --header-bg: #1a1a1a;
+  --header-text: #f3f4f6;
+  --card-bg: #1f2937;
+  --card-shadow: rgba(0, 0, 0, 0.4);
+  --footer-bg: #1a1a1a;
+}

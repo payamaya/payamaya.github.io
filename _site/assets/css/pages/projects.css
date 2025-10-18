@@ -1,0 +1,282 @@
+/* ===============================
+   💼 Projects Page Styles (Fixed + Responsive)
+   =============================== */
+
+/* === Wrapper Section === */
+.projects-section {
+  background: var(--background-color);
+  padding: 5rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: var(--text-color);
+  transition:
+    background var(--transition-normal),
+    color var(--transition-normal);
+}
+
+.projects-section .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* === Title + Subtitle === */
+.projects-section h1 {
+  font-size: var(--font-3xl, 2.5rem);
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  animation: fadeInDown 0.8s ease forwards;
+  text-align: center;
+}
+
+.projects-section h1::after {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: var(--primary-color);
+  margin: 0.6rem auto 1.2rem;
+  border-radius: 2px;
+}
+
+.projects-section p {
+  font-size: var(--font-size-large, 1.1rem);
+  color: var(--secondary-text);
+  margin: 0 auto 3rem;
+  max-width: 700px;
+  line-height: 1.7;
+  animation: fadeInUp 1s ease forwards;
+  text-align: center;
+}
+
+/* === Animations === */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === Projects Grid === */
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-items: center;
+  align-items: start;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+/* === Project Card === */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: var(--radius-lg, 12px);
+  box-shadow: 0 4px 12px var(--card-shadow);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 340px;
+  min-height: 440px;
+  transition:
+    transform var(--transition-normal),
+    box-shadow var(--transition-normal),
+    background var(--transition-normal),
+    opacity 0.6s ease;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px var(--card-shadow);
+}
+
+/* === Image Handling === */
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--radius-md, 8px);
+  margin-bottom: 1rem;
+  background: var(--tag-bg);
+}
+
+.project-image[alt='Default project preview'] {
+  opacity: 0.8;
+  filter: grayscale(40%);
+}
+
+/* === Project Text === */
+.project-card h3 {
+  font-size: var(--font-size-lg, 1.25rem);
+  margin: 0.5rem 0;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.project-card p {
+  color: var(--secondary-text, #555);
+  font-size: var(--font-size-sm, 0.95rem);
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+/* === Tech Stack === */
+.project-tech {
+  margin-bottom: 1rem;
+}
+
+.project-tech strong {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--text-color);
+}
+
+.project-tech ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.project-tech li {
+  background: var(--tag-bg, #f3f4f6);
+  color: var(--text-color);
+  border-radius: 6px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* === Links === */
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: auto;
+}
+
+/* === Buttons === */
+.btn,
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius-md, 6px);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
+}
+
+.btn:hover,
+.github-link:hover {
+  background: var(--primary-hover, #1d4ed8);
+  transform: translateY(-2px);
+}
+
+.github-link {
+  background: var(--secondary-color, #333);
+}
+
+.github-link:hover {
+  background: #000;
+}
+
+/* 🌙 Dark Mode */
+[data-theme='dark'] .projects-section {
+  background: var(--section-bg);
+  color: var(--text-color);
+}
+
+[data-theme='dark'] .project-card {
+  background: var(--card-bg-dark, #1f1f1f);
+  border-color: #2e2e2e;
+}
+
+[data-theme='dark'] .project-card p {
+  color: var(--secondary-text-dark, #ccc);
+}
+
+[data-theme='dark'] .btn {
+  background: var(--accent-color, #3b82f6);
+}
+
+[data-theme='dark'] .github-link {
+  background: #111;
+}
+
+[data-theme='dark'] .project-tech li {
+  background: #2a2a2a;
+}
+
+/* === Responsive Fixes === */
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 3rem 1rem;
+  }
+
+  .projects-section h1 {
+    font-size: 2rem;
+  }
+
+  .projects-section p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .project-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn,
+  .github-link {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.9rem;
+  }
+}

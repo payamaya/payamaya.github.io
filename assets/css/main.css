@@ -1,9 +1,9 @@
 /* =======================================
    🎨 BASE DESIGN SYSTEM & GLOBAL STYLES
    ======================================= */
-@import '/assets/css/base/global.css'; /* your :root variables (the section you just made) */
-@import '/assets/css/base/utitlities.css'; /* global resets, typography, body, links, etc. */
 @import '/assets/css/base/variables.css'; /* optional helpers: spacing, shadows, flex-center, etc. */
+@import '/assets/css/base/global.css'; /* your :root variables (the section you just made) */
+@import '/assets/css/base/utilities.css'; /* global resets, typography, body, links, etc. */
 
 /* =======================================
    🧱 LAYOUTS & COMPONENTS
