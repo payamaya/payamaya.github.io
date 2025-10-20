@@ -1,7 +1,7 @@
 cv:
   name: 'Pauly_Ashou_CV.pdf'
   label: '📄 Download CV'
-  path: '/pauly/downloads/Paul_Yashouh_CV.pdf'
+  path: '/downloads/Paul_Yashouh_CV.pdf'
 
 portfolio:
   name: 'Portfolio_Summary.pdf'
