@@ -1,6 +1,6 @@
 /* 🚀 Projects & Experience Section */
 .projects-section {
-  max-width: 900px;
+  /* max-width: 900px; */
   padding: var(--spacing-xl);
   border-radius: var(--border-radius);
   margin: var(--margin-md);

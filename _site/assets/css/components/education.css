@@ -72,9 +72,3 @@
   text-decoration: underline;
   color: var(--primary-hover);
 }
-/* 📱 Mobile Adjustments */
-@media (max-width: 768px) {
-  .education {
-    padding: var(--spacing-md);
-  }
-}
