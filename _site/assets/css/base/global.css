@@ -17,6 +17,7 @@ body {
 }
 
 body {
+  display: flex;
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: 'Inter', sans-serif;
@@ -24,6 +25,12 @@ body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main {
+  max-width: 1200px;
 }
 /* 6. Improve media defaults */
 img,

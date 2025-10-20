@@ -1,20 +1,18 @@
 /* =======================================
    🎯 What's Next Section
    ======================================= */
-.whats-next-section {
+/* .whats-next-section {
   background: var(--section-bg);
-  color: var(--text-color);
-  /* padding: var(--spacing-xl); */
-  margin: var(--margin-xl);
-  text-align: center;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 12px var(--card-shadow);
   font-family: var(--font-family);
   transition:
     background var(--transition-normal),
+    box-shadow var(--transition-normal),
     color var(--transition-normal);
-}
+} */
 
-.whats-next-container {
-  /* max-width: 800px; */
+/* .whats-next-container {
   margin: 0 auto;
   background: var(--card-bg);
   border-radius: var(--border-radius);
@@ -23,7 +21,7 @@
   transition:
     box-shadow var(--transition-normal),
     transform var(--transition-fast);
-}
+} */
 
 .whats-next-container:hover {
   transform: translateY(-3px);
@@ -71,9 +69,9 @@
 }
 
 /* 🌙 Dark Theme */
-[data-theme='dark'] .whats-next-section {
+/* [data-theme='dark'] .whats-next-section {
   background: var(--background-color);
-}
+} */
 
 [data-theme='dark'] .whats-next-container {
   background: var(--card-bg);
@@ -84,12 +82,8 @@
 /* 📱 Responsive */
 @media (max-width: 768px) {
   .whats-next-section {
-    /* padding: var(--spacing-md); */
     margin: var(--margin-md);
   }
-  /* .whats-next-container {
-    padding: var(--spacing-lg);
-  } */
 
   .whats-next-section h2 {
     font-size: 1.4rem;

@@ -2,8 +2,8 @@
   display: grid;
   place-items: center;
   padding: var(--spacing-2xl) var(--spacing-lg);
-  max-width: 1000px;
-  margin: 0 auto;
+  /* max-width: 1000px; */
+  /* margin: 0 auto; */
   gap: var(--spacing-l);
   justify-items: stretch;
 }

@@ -24,14 +24,23 @@
   --header-text: #ffffff;
   --footer-bg: var(--primary-color);
 
+  /* === Anchor & Media=== */
+  --anchor-text: #1f2937;
+  --section-bg: #ffffff;
+  --card-bg: #ffffff;
+  --header-bg: rgba(26, 26, 26, 0.8);
+  --header-text: #ffffff;
+  --footer-bg: var(--primary-color);
+
   /* === Shadows, Borders, Typography, Transitions === */
-  --card-shadow: rgba(0, 0, 0, 0.1);
+  --card-shadow: rgba(0, 0, 0, 0.411);
   --hover-shadow: rgba(37, 99, 235, 0.15);
   --border-radius: 12px;
   --border-color: rgba(0, 0, 0, 0.1);
   --font-family: 'Inter', system-ui, sans-serif;
   --font-size-base: 1rem;
   --font-size-small: 0.9rem;
+  --font-size-md: 0.9rem;
   --font-size-large: 1.8rem;
   --line-height: 1.6;
   --transition-fast: 0.2s ease;
@@ -55,6 +64,7 @@
   --margin-xl: 2rem;
   --margin-2xl: 3rem;
   --margin-3xl: 4rem;
+  --margin-4xl: 8rem;
 
   /* === Border Radius & Shadows === */
   --radius-sm: 6px;
@@ -62,8 +72,11 @@
   --radius-lg: 16px;
   --shadow-md: 0 2px 6px rgba(0, 0, 0, 0.1);
   --shadow-lg-accent: 0 4px 12px var(--hover-shadow);
+  --width-xl: 1280px;
+  --width-l: 980px;
+  --width-md: 680px;
+  --width-sm: 280px;
 }
-
 /* ===============================
    🌙 DARK THEME
    Overrides the light theme using data-theme="dark"
@@ -71,6 +84,7 @@
 [data-theme='dark'] {
   --background-color: #111827;
   --section-bg: #1f2937;
+  --ul-bg: #2e3d523d;
   --card-bg: #1f2937;
   --text-color: #d1d5db;
   --secondary-text: #9ca3af;
@@ -78,4 +92,5 @@
   --header-text: #f3f4f6;
   --footer-bg: #1a1a1a;
   --card-shadow: rgba(0, 0, 0, 0.4);
+  --anchor-text: #6a7b92;
 }

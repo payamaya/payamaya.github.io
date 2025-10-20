@@ -1,10 +1,13 @@
-<section class="education">
-  <h2>🎓 Utbildning & Kurser</h2>
+<section class="section">
+  <h2 class="heading">🎓 Utbildning & Kurser</h2>
 
   {% for edu in site.data.education %}
-  <article class="education-item">
+  <article class="education-item article-item">
     <h3>{{ edu.program }} – {{ edu.school }}</h3>
-    <p class="meta">📍 {{ edu.location }} | 📅 {{ edu.period }}</p>
+
+    <main class="tag">
+      <span>📍 {{ edu.location }}</span> <span>📅 {{ edu.period }}</span>
+    </main>
 
     {% if edu.description %}
     <p class="description">{{ edu.description }}</p>
