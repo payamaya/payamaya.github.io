@@ -1,0 +1,102 @@
+/* =======================================
+   🎯 What's Next Section
+   ======================================= */
+.whats-next-section {
+  background: var(--section-bg);
+  color: var(--text-color);
+  /* padding: var(--spacing-xl); */
+  margin: var(--margin-xl);
+  text-align: center;
+  font-family: var(--font-family);
+  transition:
+    background var(--transition-normal),
+    color var(--transition-normal);
+}
+
+.whats-next-container {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 12px var(--card-shadow);
+  padding: var(--spacing-xl);
+  transition:
+    box-shadow var(--transition-normal),
+    transform var(--transition-fast);
+}
+
+.whats-next-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px var(--hover-shadow);
+}
+
+.whats-next-section h2 {
+  color: var(--primary-color);
+  font-size: var(--font-size-large);
+  margin-bottom: var(--spacing-lg);
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.whats-next-section h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--primary-color);
+  margin: var(--spacing-sm) auto var(--spacing-lg);
+  border-radius: var(--radius-sm);
+}
+
+.whats-next-intro {
+  font-size: var(--font-size-base);
+  color: var(--secondary-text);
+  line-height: 1.8;
+  margin-bottom: var(--spacing-lg);
+}
+
+.whats-next-divider {
+  width: 80px;
+  height: 2px;
+  background: var(--secondary-color);
+  margin: var(--spacing-lg) auto;
+  border-radius: var(--radius-sm);
+}
+
+.whats-next-closing {
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}
+
+/* 🌙 Dark Theme */
+[data-theme='dark'] .whats-next-section {
+  background: var(--background-color);
+}
+
+[data-theme='dark'] .whats-next-container {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .whats-next-section {
+    /* padding: var(--spacing-md); */
+    margin: var(--margin-md);
+  }
+  /* .whats-next-container {
+    padding: var(--spacing-lg);
+  } */
+
+  .whats-next-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .whats-next-intro,
+  .whats-next-closing {
+    font-size: var(--font-size-small);
+  }
+}

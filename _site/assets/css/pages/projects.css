@@ -47,7 +47,7 @@
 }
 
 .projects-section p {
-  font-size: var(--font-size-large, 1.1rem);
+  font-size: var(--font-size-meduim, 1.1rem);
   color: var(--secondary-text);
   margin: 0 auto 3rem;
   max-width: 700px;
@@ -125,7 +125,7 @@
 .project-image {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-radius: var(--radius-md, 8px);
   margin-bottom: 1rem;
   background: var(--tag-bg);
@@ -266,12 +266,14 @@
 
   .project-card {
     max-width: 100%;
+    /* padding: 0; */
   }
 }
 
 @media (max-width: 480px) {
   .projects-grid {
     grid-template-columns: 1fr;
+    padding: 0;
   }
 
   .btn,

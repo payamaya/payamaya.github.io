@@ -1,8 +1,9 @@
 .other-projects {
   background: var(--section-bg);
-  padding: 2rem;
+  padding: var(--spacing-xl);
   border-radius: var(--border-radius);
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  margin: var(--margin-md);
   font-family: var(--font-family);
 }
 
@@ -67,4 +68,10 @@
 [data-theme='dark'] .other-item {
   background: var(--card-bg);
   box-shadow: 0 2px 10px var(--card-shadow);
+}
+
+@media (max-width: 768px) {
+  .other-projects {
+    padding: var(--spacing-md);
+  }
 }

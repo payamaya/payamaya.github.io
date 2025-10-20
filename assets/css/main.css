@@ -18,9 +18,12 @@
 @import '/assets/css/components/profile.css';
 @import '/assets/css/components/technical-profile.css';
 @import '/assets/css/components/experience.css';
+@import '/assets/css/components/projects_experience.css';
+@import '/assets/css/components/work_experience.css';
 @import '/assets/css/components/education.css';
 @import '/assets/css/components/contact-me.css';
 @import '/assets/css/components/other.css';
+@import '/assets/css/components/whats_next.css';
 
 /* =======================================
    🗂️ PAGE-SPECIFIC STYLES

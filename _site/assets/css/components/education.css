@@ -1,8 +1,9 @@
 .education {
   background: var(--section-bg);
-  padding: 2rem;
+  padding: var(--spacing-xl);
   border-radius: var(--border-radius);
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  margin: var(--margin-md);
   font-family: var(--font-family);
 }
 
@@ -70,4 +71,10 @@
 .edu-link:hover {
   text-decoration: underline;
   color: var(--primary-hover);
+}
+/* 📱 Mobile Adjustments */
+@media (max-width: 768px) {
+  .education {
+    padding: var(--spacing-md);
+  }
 }

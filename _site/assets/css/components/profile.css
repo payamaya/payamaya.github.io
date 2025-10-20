@@ -9,8 +9,8 @@ section {
 .profile {
   background: var(--section-bg);
   border-radius: var(--border-radius);
-  padding: 2rem;
-  margin: 2rem 0;
+  padding: var(--spacing-xl);
+  margin: var(--margin-md);
   box-shadow: 0 4px 12px var(--card-shadow);
   font-family: var(--font-family);
   transition:
@@ -67,9 +67,9 @@ section {
 }
 
 /* 📱 Mobile Adjustments */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .profile {
-    padding: 1.5rem;
+    padding: var(--spacing-md);
   }
 
   .profile h2 {

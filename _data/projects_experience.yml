@@ -1,0 +1,19 @@
+# 🚀 My Projects & Experience
+
+professional_experience:
+  title: 'Frontend Developer Intern @ Stockholm Webbyrå AB'
+  mode: 'Remote Position'
+  description: >
+    During my internship, I gained hands-on experience applying my knowledge in JavaScript, PHP, and WordPress.
+    I honed my skills in Figma for design implementation and collaborated effectively in a virtual environment.
+    This role provided valuable insights into professional web development workflows and strengthened my teamwork abilities.
+    I hold excellent references from this position.
+
+personal_projects:
+  - title: 'Snickeri och Restaurang Hemsida (Carpentry and Restaurant Website)'
+    number: 1
+    technologies: 'Next.js, Tailwind CSS'
+    description: >
+      I developed a comprehensive, full-stack website for a carpentry business and a restaurant.
+      This project involved taking full responsibility for both coding and design, from initial concept to deployment.
+    key_learnings: 'SEO optimization, mobile-first design, and responsive layouts.'

@@ -1,8 +1,9 @@
 .experience {
   background: var(--section-bg);
-  padding: 2rem;
+  padding: var(--spacing-xl);
   border-radius: var(--border-radius);
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  margin: var(--margin-md);
   font-family: var(--font-family);
 }
 
@@ -89,7 +90,7 @@
 /* 📱 Responsive */
 @media (max-width: 768px) {
   .experience {
-    padding: 1rem;
+    padding: var(--spacing-md);
   }
 
   .experience-item {

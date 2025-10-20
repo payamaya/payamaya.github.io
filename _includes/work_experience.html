@@ -1,0 +1,40 @@
+<section class="work-section">
+  <h2>✏️ Tidigare Arbetslivserfarenhet (Icke IT)</h2>
+
+  <div class="experience-grid">
+    {% for job in site.data.work_experience.experience %}
+    <div class="experience-item">
+      <h3 class="job-place">{{ job.place }}</h3>
+      <div class="job-details">
+        <span class="job-title">{{ job.title }}</span>
+        <span class="job-years">{{ job.years }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- <hr class="section-divider" /> -->
+
+  <section class="experience-grid">
+    <div class="interests-section">
+      <h3>🎯 Fritidsintressen</h3>
+      <ul>
+        {% for item in site.data.work_experience.interests %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="languages-section">
+      <h3>🌍 Språk</h3>
+      <ul>
+        {% for lang in site.data.work_experience.languages %}
+        <li><strong>{{ lang.name }}</strong> ({{ lang.level }})</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="references">
+      <h3>📌 Referenser</h3>
+      <p>{{ site.data.work_experience.references }}</p>
+    </div>
+  </section>
+</section>

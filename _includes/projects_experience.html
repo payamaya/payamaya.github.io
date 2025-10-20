@@ -1,0 +1,26 @@
+<section class="projects-section">
+  <h2>🚀 My Projects & Experience</h2>
+
+  <!-- 🧑‍💼 Professional Experience -->
+  <div class="experience-card">
+    <h3>{{ site.data.projects_experience.professional_experience.title }}</h3>
+    <p class="mode"><em>{{ site.data.projects_experience.professional_experience.mode }}</em></p>
+    <p class="description">{{ site.data.projects_experience.professional_experience.description }}</p>
+  </div>
+
+  <!-- 💻 Personal Projects -->
+  <div class="personal-projects">
+    <h3>Personal Projects</h3>
+    <div class="project-list">
+      {% for project in site.data.projects_experience.personal_projects %}
+      <div class="project-card">
+        <h4>{{ project.number }}. {{ project.title }}</h4>
+        <p><strong>Technologies:</strong> {{ project.technologies }}</p>
+        <p>{{ project.description }}</p>
+        <p><strong>Key Learnings:</strong> {{ project.key_learnings }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</section>

@@ -1,0 +1,30 @@
+# YAML Data for "Tidigare Arbetslivserfarenhet"
+
+experience:
+  - place: 'HVB Kungsör'
+    title: 'Behandlingsassistent'
+    years: '2020 - 2022'
+  - place: 'SIS ungdomshem'
+    title: 'Behandlingsassistent'
+    years: '2017 - 2019'
+  - place: 'Frilans inom film, musikvideo och reklam'
+    title: 'Lighting/Gaffer'
+    years: '2006 - 2016'
+
+interests:
+  - 'Tränar regelbundet'
+  - 'Gillar film och musik'
+  - 'Spenderar gärna tid i naturen eller med familjen'
+  - 'Tycker om att resa'
+
+languages:
+  - name: 'Svenska'
+    level: 'Flytande'
+  - name: 'Engelska'
+    level: 'Flytande'
+  - name: 'Arabiska'
+    level: 'Modersmål'
+  - name: 'Armeniska'
+    level: 'Modersmål'
+
+references: 'Referenser lämnas gärna på begäran'
