@@ -4,12 +4,16 @@
 
 /* === Root Layout === */
 .about-container {
-  max-width: var(--max-width-lg, 1000px);
-  margin: 0 auto;
-  padding: var(--spacing-3xl) var(--spacing-md);
-  color: var(--text-color);
-  line-height: 1.8;
-  animation: fadeIn 1s ease-in-out;
+  background: var(--section-bg);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-xl);
+  margin: var(--margin-xl);
+  box-shadow: 0 4px 12px var(--card-shadow);
+  font-family: var(--font-family);
+  transition:
+    background var(--transition-normal),
+    box-shadow var(--transition-normal),
+    color var(--transition-normal);
 }
 
 /* === Hero Section === */
@@ -23,7 +27,7 @@
   margin-bottom: var(--spacing-3xl);
   background: var(--card-bg);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 4px 12px var(--card-shadow);
   padding: var(--spacing-xl);
   backdrop-filter: blur(10px);
   transition: background var(--transition-normal);
@@ -50,6 +54,7 @@
   font-size: var(--font-3xl, 2.5rem);
   margin-bottom: var(--spacing-xs);
   font-weight: 700;
+  color: var(--special-text);
 }
 
 .highlight {
@@ -95,6 +100,7 @@
 }
 
 /* === Skills Grid === */
+
 .skills-list {
   list-style: none;
   padding: 0;
@@ -112,7 +118,7 @@
   text-align: center;
   font-weight: 500;
   color: var(--text-color);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 2px 6px var(--card-shadow);
   transition:
     transform var(--transition-fast),
     box-shadow var(--transition-fast),
@@ -198,7 +204,7 @@
 /* ===============================
    🌙 Dark Mode
    =============================== */
-[data-theme='dark'] .about-hero {
+/* [data-theme='dark'] .about-hero {
   background: rgba(32, 32, 32, 0.6);
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.05);
 }
@@ -221,7 +227,7 @@
 
 [data-theme='dark'] .btn-social:hover {
   background: #1e40af;
-}
+} */
 
 /* === Responsive Tweaks === */
 @media (max-width: 768px) {

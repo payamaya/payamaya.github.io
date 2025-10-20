@@ -1,13 +1,11 @@
 /* 🚀 Projects & Experience Section */
 .projects-section {
-  background: var(--section-bg);
+  /* max-width: 900px; */
+  padding: var(--spacing-xl);
   border-radius: var(--border-radius);
-  box-shadow: 0 4px 12px var(--card-shadow);
+  margin: var(--margin-md);
   font-family: var(--font-family);
-  transition:
-    background var(--transition-normal),
-    box-shadow var(--transition-normal),
-    color var(--transition-normal);
+  color: var(--text-color);
 }
 
 .projects-section h2 {
@@ -38,7 +36,7 @@
   margin-bottom: var(--spacing-sm);
 }
 
-.experience-card .tag {
+.experience-card .mode {
   color: var(--secondary-text);
   font-style: italic;
   margin-bottom: var(--spacing-sm);

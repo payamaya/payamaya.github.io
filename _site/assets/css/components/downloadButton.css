@@ -1,0 +1,19 @@
+.download-btn {
+  margin: var(--margin-md);
+  display: inline-block;
+  background: var(--primary-color);
+  color: var(--background-color);
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  transition: all var(--transition-normal);
+  box-shadow: 0 4px 10px var(--card-shadow);
+}
+
+.download-btn:hover {
+  background: var(--hover-bg);
+  color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px var(--hover-shadow);
+}

@@ -21,7 +21,8 @@
   text-decoration: underline 2px solid var(--primary-color);
 }
 /* SECTION WITH LIST */
-.inner-section {
+.inner-section,
+.section-para {
   background: var(--section-bg);
   border-radius: var(--border-radius);
   padding: var(--spacing-xl);
@@ -33,6 +34,7 @@
     box-shadow var(--transition-normal),
     color var(--transition-normal);
 }
+
 /* === Section Title === */
 .inner-section h2 {
   font-size: var(--font-size-large);
@@ -49,6 +51,7 @@
   padding: 0;
   margin: 0;
   display: grid;
+  gap: var(--margin-md);
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   /* gap: 1rem 2rem; */
 }
@@ -66,6 +69,7 @@
   transition:
     transform var(--transition-fast),
     box-shadow var(--transition-fast);
+  gap: 1rem;
 }
 
 .inner-section li:hover {
@@ -138,6 +142,7 @@
   justify-content: space-around;
   width: fit-content;
 }
+
 @media (max-width: 768px) {
   .section {
     padding: var(--spacing-md);

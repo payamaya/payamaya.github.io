@@ -1,5 +1,5 @@
 /* 🎨 Work Experience Section Styling */
-.work-section {
+/* .work-section {
   background: var(--section-bg);
   border-radius: var(--border-radius);
   padding: var(--spacing-xl);
@@ -10,16 +10,16 @@
     background var(--transition-normal),
     box-shadow var(--transition-normal),
     color var(--transition-normal);
-}
+} */
 
-.work-section h2 {
+/* .work-section h2 {
   font-size: var(--font-size-large);
   color: var(--primary-color);
   font-weight: 700;
   margin-bottom: var(--spacing-xl);
   text-align: center;
   letter-spacing: 0.5px;
-}
+} */
 
 .experience-grid {
   display: grid;

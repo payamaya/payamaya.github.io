@@ -3,6 +3,7 @@
    =============================== */
 
 header {
+  width: 100%;
   background: var(--header-bg, rgba(26, 26, 26, 0.8));
   color: var(--header-text, #ffffff);
   box-shadow: var(--shadow-md);
