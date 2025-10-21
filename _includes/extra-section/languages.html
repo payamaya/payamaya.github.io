@@ -1,0 +1,8 @@
+<div class="languages-section">
+  <h3>{{ site.data.work_experience.languages.title }}</h3>
+  <ul>
+    {% for lang in site.data.work_experience.languages.list %}
+    <li><strong>{{ lang.name }}</strong> ({{ lang.level }})</li>
+    {% endfor %}
+  </ul>
+</div>

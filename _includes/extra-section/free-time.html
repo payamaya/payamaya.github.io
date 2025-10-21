@@ -1,0 +1,8 @@
+<div class="interests-section">
+  <h3>{{ site.data.work_experience.interests.title }}</h3>
+  <ul>
+    {% for item in site.data.work_experience.interests.list %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</div>

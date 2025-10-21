@@ -18,8 +18,8 @@ css:
 
 {% include other.html %}
 
-{% include work_experience.html %}
-
 {% include projects_experience.html %}
 
 {% include whats_next.html %}
+
+{% include work_experience.html %}
