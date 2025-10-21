@@ -1,0 +1,5 @@
+header:
+  image: '/assets/images/mypic1.jpg'
+  alt: 'Paul Yashouh'
+  title: 'Hi, I’m <span class="highlight">Paul Yashouh</span> 👋'
+  tagline: 'System Developer • Full-Stack Enthusiast • Lifelong Learner'

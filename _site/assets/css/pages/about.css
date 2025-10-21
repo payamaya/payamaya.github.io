@@ -231,6 +231,10 @@
 
 /* === Responsive Tweaks === */
 @media (max-width: 768px) {
+  .about-container {
+    padding: var(--spacing-md);
+    margin: var(--margin-md);
+  }
   .about-photo {
     width: 150px;
     height: 150px;

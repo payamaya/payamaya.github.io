@@ -1,63 +1,8 @@
 <section class="about-container">
-  <div class="about-hero">
-    <img src="/assets/images/mypic1.jpg" alt="Paul Yashouh" class="about-photo" />
-    <div class="about-intro">
-      <h1>Hi, I’m <span class="highlight">Paul Yashouh</span> 👋</h1>
-      <p class="tagline">System Developer • Full-Stack Enthusiast • Lifelong Learner</p>
-    </div>
-  </div>
-
-  <div class="about-content">
-    <h2>💡 My Story</h2>
-    <p>
-      I’m a passionate <strong>System Developer</strong> with a deep interest in clean architecture,
-      SOLID principles, and modern design patterns...
-    </p>
-  </div>
-
-  <div class="about-skills">
-    <h2>🛠️ Skills & Focus Areas</h2>
-    <ul class="skills-list">
-      <li>Full-Stack Development (React, .NET, Spring Boot)</li>
-      <li>Clean Code, SOLID, Booch Metrics</li>
-      <li>Design Patterns (Factory, Observer, Command, Decorator, etc.)</li>
-      <li>Database Design (PostgreSQL, SQL Server)</li>
-      <li>Version Control & Collaboration (Git, GitHub)</li>
-    </ul>
-  </div>
-
-  <div class="about-projects">
-    <h2>🚀 What I’m Working On</h2>
-    <p>
-      I’m currently developing a <strong>full-stack e-learning platform</strong>...
-    </p>
-  </div>
-
-  <div class="about-goals">
-    <h2>🎯 My Mission</h2>
-    <p>
-      My goal is to become a <strong>top-tier software engineer and educator</strong>...
-    </p>
-  </div>
-  <!-- <a href="{{ '/downloads/Paul_Yashouh_CV.pdf' | relative_url }}" download="Pauly_Yashouh_CV.pdf" class="download-btn">
-    📄 Download CV
-  </a> -->
-  {% for file in site.data.downloads %}
-  <a href="{{ file[1].path | relative_url }}" download class="download-btn">
-    {{ file[1].label }}
-  </a>
-  {% endfor %}
-
-
-  <!-- <div class="about-contact">
-    <h2>📫 Let’s Connect</h2>
-    <p>
-      <a href="mailto:paulyashou81@gmail.com" class="contact-link">📧 paulyashou81@gmail.com</a>
-    </p>
-    <div class="social-buttons">
-      <a href="https://github.com/payamaya/" target="_blank" class="btn-social">GitHub</a>
-      <a href="https://www.linkedin.com/in/payamaya/" target="_blank" class="btn-social">LinkedIn</a>
-      <a href="/projects" class="btn-social">My Projects</a>
-    </div>
-  </div> -->
+  {% include about/about-hero.html %}
+  {% include about/about-content.html %}
+  {% include about/about-skills.html %}
+  {% include about/about-projects.html %}
+  {% include about/about-goals.html %}
+  {% include about/about-downloads.html %}
 </section>

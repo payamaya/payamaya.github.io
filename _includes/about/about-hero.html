@@ -1,0 +1,8 @@
+<div class="about-hero">
+  <img src="{{ site.data.about.hero.header.image | relative_url }}" alt="{{ site.data.about.hero.header.alt }}"
+    class="about-photo" />
+  <div class="about-intro">
+    <h1>{{ site.data.about.hero.header.title | markdownify | strip }}</h1>
+    <p class="tagline">{{ site.data.about.hero.header.tagline }}</p>
+  </div>
+</div>

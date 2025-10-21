@@ -1,0 +1,7 @@
+<div class="about-downloads">
+  {% for file in site.data.downloads %}
+  <a href="{{ file[1].path | relative_url }}" download class="download-btn">
+    {{ file[1].label }}
+  </a>
+  {% endfor %}
+</div>

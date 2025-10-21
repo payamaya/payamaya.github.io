@@ -1,0 +1,8 @@
+<div class="about-skills">
+  <h2>{{ site.data.about.skills.title }}</h2>
+  <ul class="skills-list">
+    {% for skill in site.data.about.skills.items %}
+    <li>{{ skill }}</li>
+    {% endfor %}
+  </ul>
+</div>
