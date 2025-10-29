@@ -15,7 +15,14 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3
-          bundler-cache: true
+          bundler-cache: false
+
+      - name: Prepare dependencies (lock platforms + install)
+        run: |
+          gem install bundler --no-document
+          # Ensure the lockfile includes the linux platform used by the runner
+          bundle lock --add-platform x86_64-linux || true
+          bundle install --jobs 4 --retry 3
 
       - name: Build with Jekyll
         run: bundle exec jekyll build
