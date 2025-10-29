@@ -6,6 +6,12 @@ css:
   - /assets/css/main.css
 ---
 
+<!--
+  SPDX-License-Identifier: MIT
+  Copyright (c) 2025 PayaMaya
+  See: /LICENSE
+-->
+
 {% include contact-me.html %}
 
 {% include profile.html %}

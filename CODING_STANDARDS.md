@@ -13,3 +13,26 @@ Key points
 Linting and tooling
 
 - Consider adding `stylelint` and `markdownlint` in CI for automated enforcement.
+
+License header examples
+
+Include a short header in source files to make the license explicit at the file level. Keep these minimal and point back to the top-level `LICENSE` file.
+
+CSS / JS / other C-style comment example:
+
+```css
+/*
+ * SPDX-License-Identifier: MIT
+ * Copyright (c) 2025 PayaMaya
+ */
+```
+
+HTML / Liquid / Markdown comment example:
+
+```html
+<!--
+	SPDX-License-Identifier: MIT
+	Copyright (c) 2025 PayaMaya
+	See: /LICENSE
+-->
+```
