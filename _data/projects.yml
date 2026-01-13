@@ -18,6 +18,13 @@
   github: 'https://github.com/payamaya/qrmenu'
   image: '/assets/images/LaBambilogo.png'
   tags: ['Next.js', 'Tailwind CSS']
+  
+- name: 'ZodiaScope'
+  description: 'A restaurant single-page app built with Next.js, featuring i18n, Google Maps, and PWA support.'
+  url: 'https://labambi.se'
+  github: 'https://www.zodiascope.xyz/'
+  image: 'https://raw.githubusercontent.com/payamaya/Horoscope/refs/heads/main/frontend/public/favicon.ico?token=GHSAT0AAAAAADRPMLKYMWXQ47YKZ4Q2W6O42LGLOTQ'
+  tags: ['React','NodeJs', 'Express', 'MongoDb', 'Tailwind CSS']
 
 - name: 'TodoList App'
   description: 'A React TypeScript app for managing tasks with timestamps, authors, and sorting features.'
