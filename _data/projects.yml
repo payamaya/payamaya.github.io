@@ -21,14 +21,14 @@
 
 - name: 'Zodiascope'
   description: 'Using Google AI Studio building a fullstack application'
-  url: 'https://zodiascope.xyz'
+  url: 'https://www.zodiascope.xyz/'
   github: 'https://github.com/payamaya/Horoscope'
   image: '/assets/images/chronocontext.png'
   tags:
     [
       'Google-genai',
       'React',
-      'firebase',
+      'Firebase',
       'Vercel serverless',
       'NodeJs Express',
       Firebase,
