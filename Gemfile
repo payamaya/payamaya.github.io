@@ -1,22 +1,19 @@
 source "https://rubygems.org"
-# Add this line to get faster downloads
-gem "fastimage", "~> 2.0"
 
-# Use GitHub Pages gem which includes all needed dependencies
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
+# Jekyll version compatible with minima theme
+gem "jekyll", "~> 3.10.0"
 
-group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-seo-tag"
-end
+# Plugins you have in _config.yml
+gem "jekyll-feed", "~> 0.12"
+gem "jekyll-seo-tag", "~> 2.6"
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", ">= 1", "< 3"
-  gem "tzinfo-data"
-end
+# Theme you're using
+gem "minima", "~> 2.5"
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
+# For Windows
+gem "wdm", "~> 0.1.1"
+gem "webrick", "~> 1.8"  # Required for Ruby 3.0+
+
+# Optional but helpful
+gem "tzinfo"
+gem "tzinfo-data"

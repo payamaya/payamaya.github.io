@@ -18,7 +18,22 @@
   github: 'https://github.com/payamaya/qrmenu'
   image: '/assets/images/LaBambilogo.png'
   tags: ['Next.js', 'Tailwind CSS']
-  
+
+- name: 'Zodiascope'
+  description: 'Using Google AI Studio building a fullstack application'
+  url: 'https://zodiascope.xyz'
+  github: 'https://github.com/payamaya/Horoscope'
+  image: '/assets/images/_site/assets/images/chronocontext.png'
+  tags:
+    [
+      'Google-genai',
+      'React',
+      'firebase',
+      'Vercel serverless',
+      'NodeJs Express',
+      Firebase,
+    ]
+
 - name: 'TodoList App'
   description: 'A React TypeScript app for managing tasks with timestamps, authors, and sorting features.'
   url: 'https://exercise-react-todo-list-nu.vercel.app/'
