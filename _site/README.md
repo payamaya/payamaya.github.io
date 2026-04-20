@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌟 Paul Yashouh - Portfolio Website
 
 [![GitHub Pages](https://img.shields.io/badge/View-Live%20Site-brightgreen)](https://payamaya.github.io/)
@@ -29,7 +28,3 @@ Welcome to my professional portfolio website! This responsive site showcases my 
 - **Build Tools**: Bundler (for Jekyll)
 
 ## 📂 Project Structure
-=======
-# payamaya.github.io
-My portfolio Website
->>>>>>> origin/main

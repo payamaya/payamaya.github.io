@@ -3,11 +3,16 @@ name: Deploy Jekyll site to Pages
 on:
   push:
     branches: ['main']
-# Add permissions at the workflow level
+
 permissions:
   contents: read
   pages: write
-  id-token: write # ← THIS IS CRITICAL
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,14 +23,12 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3
-          bundler-cache: false
+          ruby-version: '3.1' # ← CHANGE THIS from 3.3 to '3.1'
+          bundler-cache: true # ← CHANGE THIS from false to true (for caching)
 
-      - name: Prepare dependencies (lock platforms + install)
+      - name: Prepare dependencies
         run: |
-          gem install bundler --no-document
-          # Ensure the lockfile includes the linux platform used by the runner
-          bundle lock --add-platform x86_64-linux || true
+          # bundle lock --add-platform x86_64-linux || true
           bundle install --jobs 4 --retry 3
 
       - name: Build with Jekyll

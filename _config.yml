@@ -19,12 +19,18 @@ plugins:
 # Exclude from processing
 exclude:
   - Gemfile
-  - Gemfile.lock
   - node_modules
   - vendor/
 
 # Permalink style
 permalink: pretty
+
+# In your _config.yml, add:
+markdown: kramdown
+
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+  hard_wrap: false
 
 # Header pages
 header_pages:
