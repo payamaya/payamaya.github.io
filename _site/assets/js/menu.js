@@ -1,3 +1,8 @@
+/*
+ * SPDX-License-Identifier: MIT
+ * Copyright (c) 2025 PayaMaya
+ */
+
 document.addEventListener('DOMContentLoaded', () => {
   /* ==============================
      THEME TOGGLE LOGIC

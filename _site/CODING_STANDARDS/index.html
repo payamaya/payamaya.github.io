@@ -15,29 +15,25 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 
   <!-- SEO Meta -->
-  <title>Footer</title>
-  <meta name="description" content="Showcase of my programming projects">
-  <link rel="canonical" href="http://0.0.0.0:4000/footer/">
+  <title>Coding Standards</title>
+  <meta name="description" content="My personal portfolio showcasing frontend development expertise, fullstack knowledge, and projects.">
+  <link rel="canonical" href="http://0.0.0.0:4000/CODING_STANDARDS/">
 
   <!-- Open Graph / Social Media -->
-  <meta property="og:title" content="Footer">
-  <meta property="og:description" content="Showcase of my programming projects">
+  <meta property="og:title" content="Coding Standards">
+  <meta property="og:description" content="My personal portfolio showcasing frontend development expertise, fullstack knowledge, and projects.">
   <meta property="og:image" content="http://0.0.0.0:4000/assets/images/opengraph-image.png">
   <meta property="og:image:alt"
     content="Paul Yashouh’s professional portfolio showcasing web development projects and skills">
-  <meta property="og:url" content="http://0.0.0.0:4000/footer/">
+  <meta property="og:url" content="http://0.0.0.0:4000/CODING_STANDARDS/">
   <meta property="og:type" content="website">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Footer">
-  <meta name="twitter:description" content="Showcase of my programming projects">
+  <meta name="twitter:title" content="Coding Standards">
+  <meta name="twitter:description" content="My personal portfolio showcasing frontend development expertise, fullstack knowledge, and projects.">
   <meta name="twitter:image" content="http://0.0.0.0:4000/assets/images/opengraph-image.png">
 </head>
-  
-  
-  <link rel="stylesheet" href="/assets/css/main.css">
-  
   
 </head>
 
@@ -85,50 +81,57 @@
 </button>
 </header>
   <main>
-    <h1 id="this-is-the-footer-section">This is the footer section</h1>
+    <article class="post">
 
-<footer class="site-footer">
-  <div class="footer-content">
-    <div class="footer-nav">
-      <ul class="footer-menu">
-        
-        <li>
-          <a href="/">
-            Home
-          </a>
-        </li>
-        
-        <li>
-          <a href="/projects">
-            Projects
-          </a>
-        </li>
-        
-        <li>
-          <a href="/contact">
-            Contact
-          </a>
-        </li>
-        
-        <li>
-          <a href="/about">
-            About
-          </a>
-        </li>
-        
-      </ul>
-    </div>
-    <div class="footer-social">
-  <a href="https://github.com/payamaya/" target="_blank" class="social-link">GitHub</a>
-  <a href="https://www.linkedin.com/in/payamaya/" target="_blank" class="social-link">LinkedIn</a>
-  <a href="mailto:paulyashou81@gmail.com" class="social-link">Email</a>
-</div>
+  <header class="post-header">
+    <h1 class="post-title">Coding Standards</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="coding-standards">Coding Standards</h1>
+
+<p>This file is a repository-level copy of the coding standards and conventions. It mirrors the recommendations in <code class="language-plaintext highlighter-rouge">.github/copilot/Coding_Standards.md</code> and is intended for contributors who look for project rules at the repo root.</p>
+
+<p>Key points</p>
+
+<ul>
+  <li>Prefer semantic HTML and keep layout in <code class="language-plaintext highlighter-rouge">_layouts/</code> and reusable fragments in <code class="language-plaintext highlighter-rouge">_includes/</code>.</li>
+  <li>Store styles under <code class="language-plaintext highlighter-rouge">assets/css/</code> and keep components small and focused.</li>
+  <li>JavaScript should be minimal and unobtrusive (use <code class="language-plaintext highlighter-rouge">assets/js/</code>).</li>
+  <li>Keep Markdown front-matter consistent across pages.</li>
+  <li>Use clear, imperative commit messages.</li>
+</ul>
+
+<p>Linting and tooling</p>
+
+<ul>
+  <li>Consider adding <code class="language-plaintext highlighter-rouge">stylelint</code> and <code class="language-plaintext highlighter-rouge">markdownlint</code> in CI for automated enforcement.</li>
+</ul>
+
+<p>License header examples</p>
+
+<p>Include a short header in source files to make the license explicit at the file level. Keep these minimal and point back to the top-level <code class="language-plaintext highlighter-rouge">LICENSE</code> file.</p>
+
+<p>CSS / JS / other C-style comment example:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/*
+ * SPDX-License-Identifier: MIT
+ * Copyright (c) 2025 PayaMaya
+ */</span>
+</code></pre></div></div>
+
+<p>HTML / Liquid / Markdown comment example:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--
+	SPDX-License-Identifier: MIT
+	Copyright (c) 2025 PayaMaya
+	See: /LICENSE
+--&gt;</span>
+</code></pre></div></div>
+
   </div>
 
-  <div class="footer-bottom">
-    <p>&copy; 2024 Paul Yashouh. All rights reserved.</p>
-  </div>
-</footer>
+</article>
 
   </main>
   <footer class="site-footer">

@@ -16,6 +16,8 @@ css:
 
 {% include profile.html %}
 
+{% include about.html %}
+
 {% include technical-profile.html %}
 
 {% include experience.html %}

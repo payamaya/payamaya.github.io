@@ -1,59 +1,46 @@
 <div class="contact-grid">
   <div class="contact-info">
     <div class="contact-row">
-      <!-- Left Column -->
+
       <div class="contact-col">
-        <h3 class="heading">Personal contact</h3>
+        <h3 class="heading">{{site.data.contact.personal_contact.title}}</h3>
+
         <div class="contact-field">
           <span class="icon">📞</span>
-          <div class="contact-details">
-            <div class="label">Telefon</div>
-            <a class="value" href="tel:0728641357" title="Ring oss">072 864 1357</a>
-          </div>
+          <a href="tel:{{ site.data.contact.personal_contact.phone }}">
+            {{ site.data.contact.personal_contact.phone }}
+          </a>
         </div>
 
         <div class="contact-field">
           <span class="icon">📍</span>
-          <div class="contact-details">
-            <div class="label">Address</div>
-            <div class="value">Ringvägen 13, Fagersta, Sweden</div>
-          </div>
+          <div>{{ site.data.contact.personal_contact.address }}</div>
         </div>
 
         <div class="contact-field">
           <span class="icon">📧</span>
-          <div class="contact-details">
-            <div class="label">Email</div>
-            <div class="value">
-              <a href="mailto:paulyashou81@gmail.com">paulyashou81@gmail.com</a>
-            </div>
-          </div>
+          <a href="mailto:{{ site.data.contact.personal_contact.email }}">
+            {{ site.data.contact.personal_contact.email }}
+          </a>
         </div>
       </div>
 
-      <!-- Right Column -->
       <div class="contact-col">
-        <h3 class="heading">Social contact</h3>
+        <h3 class="heading">{{site.data.contact.social_contact.title}}</h3>
         <div class="contact-field">
           <span class="icon">💼</span>
           <div class="contact-details">
-            <div class="label">GitHub</div>
-            <div class="value">
-              <a href="https://github.com/payamaya/" target="_blank">github.com/payamaya</a>
-            </div>
+            <a href="{{ site.data.contact.social_contact.github }}">GitHub</a>
           </div>
         </div>
-
         <div class="contact-field">
           <span class="icon">🔗</span>
           <div class="contact-details">
-            <div class="label">LinkedIn</div>
-            <div class="value">
-              <a href="https://www.linkedin.com/in/payamaya/" target="_blank">linkedin.com/in/payamaya</a>
-            </div>
+            <a href="{{ site.data.contact.social_contact.linkedin }}">LinkedIn</a>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </div>
