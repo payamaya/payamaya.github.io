@@ -14,20 +14,10 @@ css:
 
 {% include contact-me.html %}
 
-{% include about.html %}
+<!-- {% include about.html %} -->
 
 {% include projects_experience.html %}
 
-<!-- {% include profile.html %} -->
+{% include work_experience.html %}
 
-<!-- {% include technical-profile.html %} -->
-
-<!-- {% include experience.html %}
-
-{% include education.html %}
-
-{% include other.html %} -->
-
-<!-- {% include whats_next.html %}
-
-{% include work_experience.html %} -->
+{% include whats_next.html %}

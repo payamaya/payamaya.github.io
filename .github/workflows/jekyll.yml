@@ -3,6 +3,7 @@ name: Deploy Jekyll site to Pages
 on:
   push:
     branches: ['main']
+  workflow_dispatch: # Lets you manually run from GitHub UI
 
 permissions:
   contents: read
@@ -23,16 +24,24 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # ← CHANGE THIS from 3.3 to '3.1'
-          bundler-cache: true # ← CHANGE THIS from false to true (for caching)
+          ruby-version: '3.1'
+          bundler-cache: true
 
-      - name: Prepare dependencies
+      - name: Remove Windows platform from lockfile
         run: |
-          # bundle lock --add-platform x86_64-linux || true
+          # This fixes the exit code 16 error
+          bundle lock --remove-platform x86_64-mingw32
+          bundle lock --remove-platform x86_64-mswin64
+          bundle lock --remove-platform x86_64-mingw64
+          bundle lock --add-platform x86_64-linux
+          bundle lock --add-platform ruby
+
+      - name: Install dependencies
+        run: |
           bundle install --jobs 4 --retry 3
 
       - name: Build with Jekyll
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
 
