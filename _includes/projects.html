@@ -19,16 +19,15 @@
           <p>{{ project.description }}</p>
 
           <div class="project-tech">
-            {% if project.technologies %}
+            {% if project.tags %}
             <strong>Tech stack:</strong>
             <ul>
-              {% for tech in project.technologies %}
+              {% for tech in project.tags %}
               <li>{{ tech }}</li>
               {% endfor %}
             </ul>
             {% endif %}
           </div>
-
           <div class="project-links">
             {% if project.url %}
             <a href="{{ project.url }}" target="_blank" class="btn">🌐 Live Demo</a>

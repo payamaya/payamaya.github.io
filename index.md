@@ -14,8 +14,6 @@ css:
 
 {% include contact-me.html %}
 
-<!-- {% include about.html %} -->
-
 {% include projects_experience.html %}
 
 {% include work_experience.html %}

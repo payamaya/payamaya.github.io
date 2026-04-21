@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   {% include head.html %}
-  {% if page.css %}
-  {% for stylesheet in page.css %}
-  <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
-  {% endfor %}
-  {% endif %}
 </head>
 
 <body>
   {% include header.html %}
-  <main>
+  <main id="main-content">
     {{ content }}
   </main>
   {% include footer.html %}
