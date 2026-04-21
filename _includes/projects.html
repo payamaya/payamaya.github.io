@@ -1,14 +1,12 @@
 <section class="projects-section">
   <div class="container">
-    <h1>🚀 My Projects</h1>
+    <h1>{{ site.data.projects.title }}</h1>
     <p>
-      Here’s a selection of my favorite web development projects — each built with
-      modern technologies, clean architecture, and a focus on great user experience.
-      Explore live demos or check the code on GitHub to see how I work.
+      {{ site.data.projects.projects_description }}
     </p>
 
     <div class="projects-grid">
-      {% for project in site.data.projects %}
+      {% for project in site.data.projects.items %}
       <div class="project-card">
         {% if project.image %}
         <img src="{{ project.image | relative_url }}" alt="{{ project.name }} preview" class="project-image">

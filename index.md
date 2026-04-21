@@ -16,16 +16,18 @@ css:
 
 {% include about.html %}
 
-{% include technical-profile.html %}
+{% include projects_experience.html %}
 
-{% include experience.html %}
+<!-- {% include profile.html %} -->
+
+<!-- {% include technical-profile.html %} -->
+
+<!-- {% include experience.html %}
 
 {% include education.html %}
 
-{% include other.html %}
+{% include other.html %} -->
 
-{% include projects_experience.html %}
+<!-- {% include whats_next.html %}
 
-{% include whats_next.html %}
-
-{% include work_experience.html %}
+{% include work_experience.html %} -->
