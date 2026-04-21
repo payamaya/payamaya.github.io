@@ -14,8 +14,6 @@ css:
 
 {% include contact-me.html %}
 
-{% include profile.html %}
-
 {% include about.html %}
 
 {% include technical-profile.html %}
