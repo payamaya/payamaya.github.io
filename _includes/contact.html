@@ -3,6 +3,7 @@
   <p>Feel free to reach out via the form below, and I’ll get back to you soon.</p>
 
   <form method="POST" id="contact-form" class="contact-form">
+    <p id="status"></p>
     <p class="hidden">
       <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
     </p>
@@ -33,7 +34,7 @@
   if (form) {
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
-      // 👉 LOADING STATE (correct place)
+
       button.disabled = true;
       button.textContent = "Sending...";
       status.innerText = "Sending message...";
@@ -61,11 +62,11 @@
         }
       } catch (err) {
         console.error(err);
-        alert("❌ Error sending message");
+        status.innerText = "❌ Error sending message";
+      } finally {
+        button.disabled = false;
+        button.textContent = "Send Message";
       }
-      // 👉 RESET BUTTON STATE
-      button.disabled = false;
-      button.textContent = "Send Message";
     });
   }
 </script>
