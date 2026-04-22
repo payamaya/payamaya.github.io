@@ -27,10 +27,16 @@
 </section>
 <script>
   const form = document.getElementById("contact-form");
+  const button = document.querySelector(".submit-btn");
+  const status = document.getElementById("status");
 
   if (form) {
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
+      // 👉 LOADING STATE (correct place)
+      button.disabled = true;
+      button.textContent = "Sending...";
+      status.innerText = "Sending message...";
 
       const data = {
         name: document.getElementById("name").value,
@@ -48,15 +54,18 @@
         });
 
         if (res.ok) {
-          alert("✅ Message sent successfully!");
+          status.innerText = "✅ Message sent successfully!";
           form.reset();
         } else {
-          alert("❌ Failed to send message");
+          status.innerText = "❌ Failed to send message";
         }
       } catch (err) {
         console.error(err);
         alert("❌ Error sending message");
       }
+      // 👉 RESET BUTTON STATE
+      button.disabled = false;
+      button.textContent = "Send Message";
     });
   }
 </script>
