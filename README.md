@@ -1,107 +1,218 @@
 # 🌟 Paul Yashouh — Portfolio Website
 
-[![View site](https://img.shields.io/badge/View-Live%20Site-brightgreen)](https://payamaya.github.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-
-This repository contains the source for Paul Yashouh's personal portfolio website. It's a Jekyll-based static site designed for GitHub Pages and organized with layouts, includes, and data-driven templates.
-
-## Project at a glance
-
-- Purpose: Present projects, work experience, skills, and contact information.
-- Live: https://payamaya.github.io/
-- Static site generator: Jekyll (published via GitHub Pages)
-
-## Technology stack
-
-- Jekyll (via `github-pages` gem)
-- Ruby & Bundler for local builds
-- Markup: Markdown + Liquid templates
-- Styling: CSS (assets under `assets/css/`)
-- Small vanilla JavaScript in `assets/js/`
-
-See `.github/copilot/Technology_Stack.md` for more details.
-
-## Quick start
-
-Prerequisites: Ruby (recommended 2.7+ or 3.x), Bundler, Git.
-
-```bash
-# Install dependencies
-gem install bundler --no-document
-bundle install
-
-# Serve locally with live reload
-bundle exec jekyll serve --livereload
-
-# Open http://127.0.0.1:4000
-```
-
-Push to the `main` branch of this repository to publish to GitHub Pages (this repo is a user page: `payamaya.github.io`).
-
-## Project structure (high level)
-
-- `_config.yml` — site configuration
-- `Gemfile` — Ruby dependencies
-- `_layouts/`, `_includes/` — HTML templates and fragments
-- `_data/` — YAML data (projects, experience, navigation)
-- `assets/` — CSS, JS, images
-- Markdown pages at the repo root (index.md, about.md, projects.md, contact.md)
-- `_site/` — generated site output (build artifact)
-
-See `.github/copilot/Project_Folder_Structure.md` for details and guidance.
-
-## Key features
-
-- Data-driven templates for projects and experience (`_data/*.yml`).
-- Componentized CSS under `assets/css/` (base, components, layout, pages, themes).
-- Simple, unobtrusive JS for site behavior (menu, toggles).
-
-## Development workflow
-
-- Branching: use feature branches (e.g., `feat/…`, `fix/…`) and open PRs into `main`.
-- Local preview: `bundle exec jekyll serve --livereload`.
-- CI: a basic GitHub Action runs `jekyll build` and `html-proofer` on PRs to `main`.
-
-See `.github/copilot/Workflow_Analysis.md` for recommendations.
-
-## Coding standards and examples
-
-Coding conventions and small code exemplars live under:
-
-- `.github/copilot/Coding_Standards.md` and `CODING_STANDARDS.md` (root)
-- `.github/copilot/Code_Exemplars.md` — small snippets for front-matter, includes, CSS patterns, and JS
-
-Follow semantic HTML, consistent front-matter, and small, focused CSS components.
-
-## Testing and validation
-
-This repository uses a validation-first approach rather than runtime unit tests. See `.github/copilot/Unit_Tests.md` for recommended checks.
-
-- CI runs HTMLProofer to catch broken links and common HTML issues. Consider adding `stylelint` and `markdownlint` to CI for CSS and Markdown checks.
-
-## Contributing
-
-Please read `CONTRIBUTING.md` for contribution steps and local development instructions.
-
-Basic flow:
-
-1. Create a feature branch: `git checkout -b feat/your-change`
-2. Run and verify locally: `bundle exec jekyll serve --livereload`
-3. Commit with a clear message and open a PR into `main`.
-
-## License
-
-This project is licensed under the MIT License — see `LICENSE`.
-
-Copyright (c) 2025 PayaMaya
-
-Full license text is in the `LICENSE` file at the repo root.
-
-## Useful links
-
-- Live site: https://payamaya.github.io/
-- Repo config: `_config.yml`
-- Templates/includes: `_layouts/`, `_includes/`
-- Contributor docs: `.github/copilot/` (Architecture, Workflow, Technology Stack, Project structure, Unit Tests, Code exemplars)
+[![Live Site](https://img.shields.io/badge/Live%20Site-Visit-brightgreen)](https://payamaya.github.io/)
+[![Built with Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-red)]()
+[![Deployed via GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 ---
+
+## 📌 Overview
+
+This repository contains my **personal portfolio website**, built with a static-first architecture and enhanced with a **serverless backend for real-world functionality**.
+
+It showcases:
+
+- Projects
+- Skills
+- Experience
+- A fully functional **contact system** (custom-built, not third-party)
+
+---
+
+## 🧠 Architecture
+
+```text
+Frontend (Jekyll + GitHub Pages)
+        ↓
+JavaScript (fetch API)
+        ↓
+Backend API (Cloud Run)
+        ↓
+Gmail API (OAuth2)
+        ↓
+Email delivered
+```
+
+```mermaid
+flowchart LR
+    %% Frontend Layer
+    subgraph Frontend
+        A[User Browser]
+        B[Jekyll Site<br/>GitHub Pages]
+    end
+
+    %% Client Logic
+    subgraph Client
+        C[JavaScript<br/>fetch API]
+    end
+
+    %% Backend Layer
+    subgraph Backend
+        D[Cloud Run API<br/>Node.js + Express]
+        E[OAuth2 Client]
+    end
+
+    %% External Service
+    subgraph External
+        F[Gmail API]
+    end
+
+    %% Output
+    G[Email Inbox]
+
+    %% Flow
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+```
+
+### 🔄 Flow Explanation
+
+1. The user visits the portfolio hosted on GitHub Pages
+2. The contact form triggers a JavaScript `fetch()` request
+3. The request is sent to a serverless API on Google Cloud Run
+4. The backend authenticates using OAuth2
+5. Gmail API sends the email to the inbox
+6. A response is returned to the frontend
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- Jekyll
+- HTML5 + CSS3
+- JavaScript (Vanilla)
+- Liquid Templates
+
+### Hosting & CI/CD
+
+- GitHub Pages
+- GitHub Actions
+
+### Backend Integration
+
+- Serverless API hosted on Google Cloud Run
+
+---
+
+## ✨ Key Features
+
+- ⚡ Static, fast-loading website
+- 📊 Data-driven content via `_data/*.yml`
+- 🧩 Modular layouts and reusable components
+- 📬 Custom contact form (no third-party services)
+- 🚀 Fully automated deployment pipeline
+
+---
+
+## 📧 Contact Form (Custom Backend)
+
+Unlike typical static sites, this project includes a **custom-built contact system**.
+
+### 🔄 How it works
+
+1. User submits form
+2. JavaScript intercepts submission
+3. Sends POST request via `fetch()`
+4. Backend API processes request
+5. Email sent via Gmail API
+
+---
+
+## 🚀 Deployment (CI/CD)
+
+This project uses automated deployment via GitHub Actions.
+
+### 📂 Workflow file
+
+.github/workflows/jekyll.yml
+
+### 🔄 Pipeline
+
+On every push to `main`:
+
+1. Install Ruby & dependencies
+2. Build Jekyll site
+3. Generate `_site` folder
+4. Deploy to GitHub Pages
+
+### ✅ Result
+
+Live site is automatically updated:
+
+👉 https://payamaya.github.io/
+
+---
+
+## 📁 Project Structure
+
+```text
+.
+├── _layouts/        # Page templates
+├── _includes/       # Reusable components
+├── _data/           # YAML data files
+├── assets/          # CSS, JS, images
+├── pages/           # Markdown pages
+├── _config.yml      # Jekyll config
+└── .github/workflows/jekyll.yml
+```
+
+---
+
+## 🧪 Local Development
+
+### Prerequisites
+
+- Ruby (2.7+ or 3.x)
+- Bundler
+
+### Run locally
+
+```bash
+bundle install
+bundle exec jekyll serve --livereload
+```
+
+Open:
+
+```
+http://127.0.0.1:4000
+```
+
+---
+
+## 📌 Why This Architecture?
+
+### ❌ Problem
+
+Static sites cannot:
+
+- Handle form submissions
+- Send emails
+- Secure credentials
+
+### ✅ Solution
+
+- Keep frontend static (fast, simple)
+- Add serverless backend for dynamic features
+
+---
+
+## 🔮 Future Improvements
+
+- Add reCAPTCHA (spam protection)
+- Store messages in database
+- Admin dashboard for messages
+- Email templates (HTML styled)
+
+---
+
+## 📄 License
+
+MIT License
