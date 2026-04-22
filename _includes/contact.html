@@ -54,11 +54,13 @@
           body: JSON.stringify(data)
         });
 
+        const text = await res.text();
+
         if (res.ok) {
           status.innerText = "✅ Message sent successfully!";
           form.reset();
         } else {
-          status.innerText = "❌ Failed to send message";
+          status.innerText = "❌ " + text;
         }
       } catch (err) {
         console.error(err);
