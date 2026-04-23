@@ -6,11 +6,6 @@
     <input type="text" id="website" name="website" style="display:none" tabindex="-1" autocomplete="off" />
     <p id="status"></p>
     <input type="hidden" id="start-time" />
-    <!-- <p style="display:none;">
-      <label>Don’t fill this out if you’re human:
-        <input name="bot-field" />
-      </label>
-    </p> -->
 
     <div class="form-group">
       <label for="name">Your Name</label>
@@ -34,19 +29,18 @@
   const form = document.getElementById("contact-form");
   const button = document.querySelector(".submit-btn");
   const status = document.getElementById("status");
-  document.getElementById("start-time").value = Date.now()
+
+  const formStartTime = Date.now();
 
   const CONFIG = {
-
     API_URL: "https://send-contact-email-794036390564.europe-north2.run.app",
-
   };
 
   if (form) {
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
 
-      const website = document.getElementById('website').value;
+      const website = document.getElementById("website").value;
 
       button.disabled = true;
       button.textContent = "Sending...";
@@ -57,16 +51,20 @@
       const message = document.getElementById("message").value;
 
       const data = {
-        name, email, message, website, startTime: Date.now()
+        name,
+        email,
+        message,
+        website,
+        startTime: formStartTime,
       };
 
       try {
         const res = await fetch(CONFIG.API_URL, {
           method: "POST",
           headers: {
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
           },
-          body: JSON.stringify(data)
+          body: JSON.stringify(data),
         });
 
         const text = await res.text();
