@@ -3,10 +3,13 @@
   <p>Feel free to reach out via the form below, and I’ll get back to you soon.</p>
 
   <form method="POST" id="contact-form" class="contact-form">
+    <input type="text" id="website" name="website" style="display:none" tabindex="-1" autocomplete="off" />
     <p id="status"></p>
-    <p class="hidden">
-      <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-    </p>
+    <!-- <p style="display:none;">
+      <label>Don’t fill this out if you’re human:
+        <input name="bot-field" />
+      </label>
+    </p> -->
 
     <div class="form-group">
       <label for="name">Your Name</label>
@@ -31,22 +34,32 @@
   const button = document.querySelector(".submit-btn");
   const status = document.getElementById("status");
 
+  const CONFIG = {
+
+    API_URL: "https://send-contact-email-794036390564.europe-north2.run.app",
+    API_KEY: "8f3a9c1d7b2e4f6g8h0jPYsecureKey"
+  };
+
   if (form) {
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
+
+      const website = document.getElementById('website').value;
 
       button.disabled = true;
       button.textContent = "Sending...";
       status.innerText = "Sending message...";
 
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+
       const data = {
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
-        message: document.getElementById("message").value
+        name, email, message, website, apiKey: CONFIG.API_KEY
       };
 
       try {
-        const res = await fetch("https://send-contact-email-794036390564.europe-north2.run.app", {
+        const res = await fetch(CONFIG.API_URL, {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
