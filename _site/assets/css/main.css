@@ -15,7 +15,6 @@
    ======================================= */
 @import '/assets/css/layout/header.css';
 @import '/assets/css/layout/footer.css';
-@import '/assets/css/layout/contact.css';
 
 /* =======================================
    🏗️ COMPONENT-SPECIFIC STYLES
@@ -37,4 +36,5 @@
 
 @import '/assets/css/pages/projects.css';
 @import '/assets/css/pages/about.css';
+@import '/assets/css/pages/contact.css';
 @import '/assets/css/pages/404.css';

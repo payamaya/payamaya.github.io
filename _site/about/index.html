@@ -8,6 +8,18 @@
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 
+<script>
+  (function () {
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    } else if (!savedTheme && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  })();
+</script>
+
 <!-- CSS -->
 <link rel="stylesheet" href="/index.css">
 <link rel="stylesheet" href="/assets/css/main.css">
@@ -35,7 +47,6 @@
 <body>
   <header>
   <nav>
-    <!-- Add your logo/brand here if needed -->
     <img src="/assets/images/logo.png" alt="Paul Yashouh's Photo"
       style="width: 100px; height: 100px; border-radius: 50%;" />
 
@@ -171,6 +182,8 @@
   </div>
 </footer>
   <script src="/assets/js/menu.js" defer></script>
+  <script src="/assets/js/toggle-theme.js" defer></script>
+
 </body>
 
 </html>
