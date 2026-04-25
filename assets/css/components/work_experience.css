@@ -88,14 +88,14 @@
 }
 
 /* 🌙 Dark Theme Support */
-[data-theme='dark'] .experience-item {
+/* [data-theme='dark'] .experience-item {
   background: var(--card-bg);
   border: 1px solid var(--border-color);
 }
 
 [data-theme='dark'] .experience-item:hover {
   background-color: rgba(37, 99, 235, 0.08);
-}
+} */
 
 /* 📱 Responsive */
 @media (max-width: 957px) {

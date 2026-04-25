@@ -63,7 +63,7 @@
 }
 
 /* 🌙 Dark Theme Support */
-[data-theme='dark'] .technical-profile {
+/* [data-theme='dark'] .technical-profile {
   background: var(--section-bg);
   box-shadow: none;
 }
@@ -76,7 +76,7 @@
 
 [data-theme='dark'] .technical-profile strong {
   color: var(--heading-color);
-}
+} */
 
 /* 📱 Mobile Adjustments */
 @media (max-width: 600px) {

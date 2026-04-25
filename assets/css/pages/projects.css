@@ -4,22 +4,25 @@
 
 /* === Wrapper Section === */
 .projects-section {
-  background: var(--background-color);
-  padding: 5rem 1.5rem;
+  background: var(--section-bg);
+  /* padding: 5rem 1.5rem; */
+  margin: var(--margin-xl);
+  padding: var(--spacing-xl);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  box-shadow: 0 4px 12px var(--card-shadow);
   color: var(--text-color);
   transition:
     background var(--transition-normal),
     color var(--transition-normal);
+  /* min-width: 1200px; */
 }
 
 .projects-section .container {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -56,29 +59,6 @@
   text-align: center;
 }
 
-/* === Animations === */
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 /* === Projects Grid === */
 .projects-grid {
   display: grid;
@@ -93,10 +73,12 @@
 
 /* === Project Card === */
 .project-card {
-  width: 100%;
-  max-width: 340px;
-  min-height: 440px;
+  display: flex;
+  min-height: stretch;
   box-shadow: 0 6px 18px var(--card-shadow);
+  flex-wrap: wrap;
+  align-items: baseline;
+  align-content: space-between;
 }
 
 .project-card:hover {
@@ -178,8 +160,8 @@
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: var(--primary-color);
-  color: #fff;
+  background: var(--btn-bg);
+  color: var(--btn-color);
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: var(--radius-md, 6px);
@@ -205,8 +187,31 @@
   background: #000;
 }
 
+/* === Animations === */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* 🌙 Dark Mode */
-[data-theme='dark'] .projects-section {
+/* [data-theme='dark'] .projects-section {
   background: var(--section-bg);
   color: var(--text-color);
 }
@@ -230,7 +235,7 @@
 
 [data-theme='dark'] .project-tech li {
   background: #2a2a2a;
-}
+} */
 
 /* === Responsive Fixes === */
 @media (max-width: 768px) {

@@ -51,7 +51,7 @@ section {
 }
 
 /* 🌙 Dark Theme Support */
-[data-theme='dark'] .profile {
+/* [data-theme='dark'] .profile {
   background: var(--section-bg);
   box-shadow: none;
 }
@@ -64,7 +64,7 @@ section {
 
 [data-theme='dark'] .profile h2 {
   color: var(--secondary-color);
-}
+} */
 
 /* 📱 Mobile Adjustments */
 @media (max-width: 600px) {

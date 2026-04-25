@@ -4,7 +4,7 @@
 
 .site-footer {
   width: 100%;
-  background: var(--primary-color);
+  background: var(--footer-bg);
   color: var(--footer-text-color, #ffffff);
   padding: 2rem 1rem;
   text-align: center;
@@ -71,7 +71,7 @@
 }
 
 /* 🌙 Dark Theme Support */
-[data-theme='dark'] .site-footer {
+/* [data-theme='dark'] .site-footer {
   background: var(--footer-bg-dark, #1a1a1a);
   color: var(--text-color);
 }
@@ -89,7 +89,7 @@
 [data-theme='dark'] .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--footer-muted-dark, #9ca3af);
-}
+} */
 
 /* 📱 Mobile Adjustments */
 @media (max-width: 768px) {

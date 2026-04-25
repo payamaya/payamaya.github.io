@@ -120,7 +120,7 @@
 /* ===========================
    DARK MODE SUPPORT
    =========================== */
-[data-theme='dark'] .not-found {
+/* [data-theme='dark'] .not-found {
   background: linear-gradient(
     135deg,
     rgba(37, 99, 235, 0.05),
@@ -141,4 +141,4 @@
 [data-theme='dark'] .projects-link:hover {
   background-color: #2563eb;
   color: #fff;
-}
+} */

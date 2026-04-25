@@ -77,14 +77,14 @@
 }
 
 /* 🌙 Dark mode (automatic from [data-theme='dark']) */
-[data-theme='dark'] .experience-item {
+/* [data-theme='dark'] .experience-item {
   background: var(--card-bg);
   box-shadow: 0 2px 10px var(--card-shadow);
 }
 
 [data-theme='dark'] .experience-item .tag {
   background: var(--primary-color);
-}
+} */
 
 /* 📱 Responsive */
 @media (max-width: 768px) {

@@ -15,13 +15,14 @@
   --accent-color: #007acc;
   --text-color: #1f2937;
   --secondary-text: #6b7280;
+  --btn-color: #f3f4f6;
 
   /* === Backgrounds === */
   --background-color: #f9fafb;
   --section-bg: #ffffff;
   --card-bg: #ffffff;
   --header-bg: var(--primary-color);
-  --header-bg: var(--primary-color);
+  --btn-bg: var(--primary-color);
   --header-text: #ffffff;
   --tag-bg: #d2e1ff;
   --nav-logo-border: #9aa2b0;
@@ -84,6 +85,9 @@
   --header-bg: #1a1a1a;
   --header-text: #f3f4f6;
   --footer-bg: #1a1a1a;
+  --footer-text: #f3f4f6;
+  --btn-bg: #6b7280;
+  --btn-color: #f3f4f6;
   --card-shadow: rgba(0, 0, 0, 0.4);
   --anchor-text: #9bb7f3;
   --card-shadow: rgba(189, 189, 189, 0.1);
