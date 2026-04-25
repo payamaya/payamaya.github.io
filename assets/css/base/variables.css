@@ -32,7 +32,7 @@
   --card-shadow: rgba(37, 37, 37, 0.747);
   --hover-shadow: rgba(37, 99, 235, 0.15);
   --border-radius: 12px;
-  --border-color: rgba(0, 0, 0, 0.534);
+  --border-color: #1a1a1a;
   --font-family: 'Inter', system-ui, sans-serif;
   --font-size-base: 1rem;
   --font-size-small: 0.9rem;
@@ -88,6 +88,7 @@
   --footer-text: #f3f4f6;
   --btn-bg: #6b7280;
   --btn-color: #f3f4f6;
+  --border-color: #f3f4f6;
   --card-shadow: rgba(0, 0, 0, 0.4);
   --anchor-text: #9bb7f3;
   --card-shadow: rgba(189, 189, 189, 0.1);
